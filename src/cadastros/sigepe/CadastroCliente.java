@@ -31,10 +31,11 @@ public class CadastroCliente {
 
 		Screen executa = new Screen();
 
-		executa.click("E:/Java/TesteAuto/imagens/TelaInicialMenuCadastro.png");
-		executa.wait("E:/Java/TesteAuto/imagens/CadastroCliente.png", 10);
+		executa.click("//TIFIRE-SUPORTE0/imagens/TelaInicialMenuCadastro.png");
+		executa.click("//TIFIRE-SUPORTE0/imagens/clicar1.png");
+		executa.wait("//TIFIRE-SUPORTE0//imagens/CadastroCliente.png", 10);
 		executa.type(Key.INSERT, KeyModifier.CTRL);
-		executa.type("Danilo Augusto");
+		executa.paste("Danilo Augusto");
 		executa.type(Key.ENTER);
 		executa.type(Key.ENTER);
 		executa.type("87030140");
@@ -43,7 +44,7 @@ public class CadastroCliente {
 		executa.type(Key.ENTER);
 		executa.type("441");
 		executa.type(Key.ENTER);
-		executa.type("Proximo a Sanepar");
+		executa.paste("Proximo a Sanepar");
 		executa.type(Key.ENTER);
 		executa.type(Key.ENTER);
 		executa.type(Key.ENTER);
@@ -56,13 +57,12 @@ public class CadastroCliente {
 		executa.type(Key.ENTER, KeyModifier.CTRL + KeyModifier.SHIFT);
 		executa.type(Key.F4, KeyModifier.ALT);
 
-		if (executa.exists("E:/Java/TesteAuto/imagens/houver.png") != null) {
+		if (executa.exists("//TIFIRE-SUPORTE0/imagens/houver.png") != null) {
 			System.out.println("Houve Algum Erro");
 			return;
 
-		} else{
-			ConsultaCliente banco = new ConsultaCliente();
-			banco.ConsultaCli();
+		} else {
+			CadCli();
 		}
 
 	}

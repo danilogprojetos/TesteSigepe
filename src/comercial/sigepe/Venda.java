@@ -17,20 +17,20 @@ public class Venda {
 
 		Screen executa = new Screen();
 
-		executa.wait("E:/Java/TesteAuto/imagens/TelaInicial.png", 10);
-		executa.click("E:/Java/TesteAuto/imagens/Comercial.png");
-		executa.click("E:/Java/TesteAuto/imagens/Vendas.png");
-		executa.waitVanish("E:/Java/TesteAuto/imagens/TelaVenda.png", 10);
+		executa.wait("//TIFIRE-SUPORTE0/imagens/TelaInicial.png", 10);
+		executa.click("//TIFIRE-SUPORTE0/imagens/Comercial.png");
+		executa.click("//TIFIRE-SUPORTE0/imagens/Vendas.png");
+		executa.waitVanish("//TIFIRE-SUPORTE0/imagens/TelaVenda.png", 10);
 		executa.type(Key.INSERT, KeyModifier.CTRL);
 		executa.type(Key_H, KeyModifier.CTRL);
-		executa.wait("E:/Java/TesteAuto/imagens/NovaVenda.png", 10);
+		executa.wait("//TIFIRE-SUPORTE0/imagens/NovaVenda.png", 10);
 		executa.type(Key.ENTER);
-		executa.type("50315");
+		executa.type("50316");
 		executa.type(Key.ENTER);
 		executa.type("50");
 		executa.type(Key.ENTER);
 		executa.type(Key.ENTER);
-		executa.wait("E:/Java/TesteAuto/imagens/InserindoItens.png", 20);
+		executa.wait("//TIFIRE-SUPORTE0/imagens/InserindoItens.png", 20);
 		executa.type("2654");
 		executa.type(Key.ENTER);
 		executa.type(Key.ENTER);
@@ -39,7 +39,7 @@ public class Venda {
 		executa.type(Key.ENTER);
 		executa.type(Key.ENTER);
 		executa.type(Key.ENTER);
-		executa.wait("E:/Java/TesteAuto/imagens/InserindoItens.png", 10);
+		executa.wait("//TIFIRE-SUPORTE0/imagens/InserindoItens.png", 10);
 		executa.type(Key.ESC);
 		executa.type(Key.ENTER);
 		executa.type(Key.ENTER);
@@ -49,7 +49,7 @@ public class Venda {
 		executa.type(Key.ENTER);
 		executa.type(Key.ENTER);
 		executa.type(Key.ENTER);
-		executa.wait("E:/Java/TesteAuto/imagens/RecriarParcelas.png", 10);
+		executa.wait("//TIFIRE-SUPORTE0/imagens/RecriarParcelas.png", 10);
 		executa.type(Key.ENTER);
 		executa.type("999");
 		executa.type(Key.ENTER);
@@ -64,11 +64,9 @@ public class Venda {
 		if (executa.exists("") != null) {
 			System.out.println("Houve Algum Erro");
 			return;
-		} else{
-			ConsultaVenda f = new ConsultaVenda();
-			f.ConsultaPedSai();
+		} else {
+			PedSai();
 		}
-		
 
 	}
 

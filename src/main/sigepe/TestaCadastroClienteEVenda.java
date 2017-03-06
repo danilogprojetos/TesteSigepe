@@ -18,11 +18,9 @@ public class TestaCadastroClienteEVenda {
 
 		CadastroCliente c = new CadastroCliente();
 		Venda d = new Venda();
-		
 
 		c.CadCli();
 		d.PedSai();
-		
 
 	}
 
