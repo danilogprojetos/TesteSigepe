@@ -1,29 +1,13 @@
 package cadastros.sigepe;
 
-import java.awt.AWTException;
-import java.awt.Rectangle;
-import java.awt.Robot;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
 import java.sql.SQLException;
 
-import javax.imageio.ImageIO;
-
-import org.python.antlr.PythonParser.break_stmt_return;
-import org.python.antlr.PythonParser.exprlist_return;
-import org.python.antlr.ast.Break;
 import org.sikuli.script.FindFailed;
 import org.sikuli.script.Key;
 import org.sikuli.script.KeyModifier;
 import org.sikuli.script.Screen;
-import org.sikuli.script.FindFailed;
-
-import com.banco.dao.Acesso;
-import com.sun.prism.paint.Stop;
 
 import consulta.banco.ConsultaCliente;
-import jnr.ffi.Struct.key_t;
 
 public class CadastroCliente {
 
@@ -32,7 +16,6 @@ public class CadastroCliente {
 		Screen executa = new Screen();
 
 		executa.click("//TIFIRE-SUPORTE0/imagens/TelaInicialMenuCadastro.png");
-		executa.click("//TIFIRE-SUPORTE0/imagens/clicar1.png");
 		executa.wait("//TIFIRE-SUPORTE0//imagens/CadastroCliente.png", 10);
 		executa.type(Key.INSERT, KeyModifier.CTRL);
 		executa.paste("Danilo Augusto");
@@ -56,13 +39,16 @@ public class CadastroCliente {
 		executa.type("09805631940");
 		executa.type(Key.ENTER, KeyModifier.CTRL + KeyModifier.SHIFT);
 		executa.type(Key.F4, KeyModifier.ALT);
+		executa.wait("//TIFIRE-SUPORTE0/imagens/TelaInicial.png", 5);
 
 		if (executa.exists("//TIFIRE-SUPORTE0/imagens/houver.png") != null) {
 			System.out.println("Houve Algum Erro");
 			return;
 
 		} else {
-			CadCli();
+			ConsultaCliente consulta = new ConsultaCliente();
+
+			consulta.ConsultaCli();
 		}
 
 	}

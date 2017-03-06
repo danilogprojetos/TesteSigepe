@@ -6,9 +6,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class ConsultaCliente {
-
-	public void ConsultaCli() throws ClassNotFoundException, SQLException {
+public class ConsultaFornecedor {
+	
+	public void ConsultaForneced() throws ClassNotFoundException, SQLException {
 
 		String url = "jdbc:postgresql://localhost:5432/teste_viverde";
 		String usuario = "postgres";
@@ -25,23 +25,33 @@ public class ConsultaCliente {
 		Statement stm = co.createStatement();
 
 		stm = co.createStatement();
-		ResultSet rs = stm.executeQuery("SELECT * FROM Cliente ORDER BY cod DESC LIMIT 1");
+		ResultSet rs = stm.executeQuery("SELECT * FROM Forneced ORDER BY cod DESC LIMIT 1");
 
 		while (rs.next()) {
 			int Cod = rs.getInt("Cod");
 			String Fan = rs.getString("Fan");
 			String Raz = rs.getString("raz");
-			String Endereco = rs.getString("Endereco");
 			String Bai = rs.getString("Bai");
 			int CodCid = rs.getInt("CodCid");
 			String Cep = rs.getString("Cep");
 			String Fon = rs.getString("Fon");
 			String Fax = rs.getString("Fax");
-			Short Pes = rs.getShort("Pes");
+			int Pes = rs.getInt("Pes");
 			String Cgc = rs.getString("Cgc");
 			String Ins = rs.getString("Ins");
 			String DatCad = rs.getString("DatCad");
-			String con = rs.getString("con");
+			String cofcfo = rs.getString("codcfo");
+			int CodRep = rs.getInt("CodRep");
+			Double des1 = rs.getDouble("des1");
+			Double des2 = rs.getDouble("des2");
+			Double des3 = rs.getDouble("des3");
+			Double des4 = rs.getDouble("des4");
+			Double despad = rs.getDouble("despad");
+			Double ipi = rs.getDouble("ipi");
+			Double fre = rs.getDouble("fre");
+			
+			
+			
 			String email = rs.getString("email");
 			String ativo = rs.getString("ativo");
 			Short PodGerRem = rs.getShort("PodGerRem");
@@ -56,7 +66,6 @@ public class ConsultaCliente {
 			System.out.println("Cod = " + Cod);
 			System.out.println("Fan = " + Fan);
 			System.out.println("Raz = " + Raz);
-			System.out.println("End = " + Endereco);
 			System.out.println("Bai = " + Bai);
 			System.out.println("CodCid = " + CodCid);
 			System.out.println("Cep = " + Cep);
@@ -79,4 +88,6 @@ public class ConsultaCliente {
 
 		}
 	}
+}
+
 }

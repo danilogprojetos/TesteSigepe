@@ -7,7 +7,7 @@ import org.sikuli.script.Key;
 import org.sikuli.script.KeyModifier;
 import org.sikuli.script.Screen;
 
-import consulta.banco.ConsultaVenda;
+
 
 public class Venda {
 
