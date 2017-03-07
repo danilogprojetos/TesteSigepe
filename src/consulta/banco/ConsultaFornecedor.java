@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class ConsultaFornecedor {
-	
+
 	public void ConsultaForneced() throws ClassNotFoundException, SQLException {
 
 		String url = "jdbc:postgresql://localhost:5432/teste_viverde";
@@ -40,7 +40,7 @@ public class ConsultaFornecedor {
 			String Cgc = rs.getString("Cgc");
 			String Ins = rs.getString("Ins");
 			String DatCad = rs.getString("DatCad");
-			String cofcfo = rs.getString("codcfo");
+			String codcfo = rs.getString("codcfo");
 			int CodRep = rs.getInt("CodRep");
 			Double des1 = rs.getDouble("des1");
 			Double des2 = rs.getDouble("des2");
@@ -49,19 +49,14 @@ public class ConsultaFornecedor {
 			Double despad = rs.getDouble("despad");
 			Double ipi = rs.getDouble("ipi");
 			Double fre = rs.getDouble("fre");
-			
-			
-			
+			String refban = rs.getString("refban");
+			int ativo = rs.getInt("ativo");
 			String email = rs.getString("email");
-			String ativo = rs.getString("ativo");
-			Short PodGerRem = rs.getShort("PodGerRem");
+			Double porcom = rs.getDouble("porcom");
 			int codTipCliFat = rs.getInt("codTipCliFat");
-			String CodCFO = rs.getString("CodCFO");
-			int CodGui = rs.getInt("CodGui");
-			String NumFicGui = rs.getString("NumFicGui");
 
 			System.out.println("");
-			System.out.println("CADASTRO DO CLIENTE COD: " + Cod + "  Nome Fantasia:  " + Fan);
+			System.out.println("CADASTRO DE FORNECEDOR  COD: " + Cod + "  Nome Fantasia:  " + Fan);
 			System.out.println("");
 			System.out.println("Cod = " + Cod);
 			System.out.println("Fan = " + Fan);
@@ -75,19 +70,24 @@ public class ConsultaFornecedor {
 			System.out.println("Cgc = " + Cgc);
 			System.out.println("Ins = " + Ins);
 			System.out.println("DatCad = " + DatCad);
-			System.out.println("con = " + con);
-			System.out.println(" email= " + email);
+			System.out.println("codcfo = " + codcfo);
+			System.out.println("CodRep = " + CodRep);
+			System.out.println("des1 = " + des1);
+			System.out.println("des2 = " + des2);
+			System.out.println("des3 = " + des3);
+			System.out.println("des4 = " + des4);
+			System.out.println("despad = " + despad);
+			System.out.println("ipi = " + ipi);
+			System.out.println("fre = " + fre);
+			System.out.println("refban = " + refban);
 			System.out.println("ativo = " + ativo);
-			System.out.println("PodGerRem = " + PodGerRem);
+			System.out.println("ativo = " + ativo);
+			System.out.println(" email= " + email);
+			System.out.println("porcom = " + porcom);
 			System.out.println("codTipCliFat = " + codTipCliFat);
-			System.out.println("CodCFO = " + CodCFO);
-			System.out.println("CodGui = " + CodGui);
-			System.out.println("NumFicGui = " + NumFicGui);
 
 			System.out.println();
 
 		}
 	}
-}
-
 }

@@ -27,7 +27,7 @@ public class ConsultaCliente {
 		stm = co.createStatement();
 		ResultSet rs = stm.executeQuery("SELECT * FROM Cliente ORDER BY cod DESC LIMIT 1");
 
-		while (rs.next()) {
+	while (rs.next()) {
 			int Cod = rs.getInt("Cod");
 			String Fan = rs.getString("Fan");
 			String Raz = rs.getString("raz");
@@ -50,6 +50,7 @@ public class ConsultaCliente {
 			int CodGui = rs.getInt("CodGui");
 			String NumFicGui = rs.getString("NumFicGui");
 
+			
 			System.out.println("");
 			System.out.println("CADASTRO DO CLIENTE COD: " + Cod + "  Nome Fantasia:  " + Fan);
 			System.out.println("");
