@@ -1,13 +1,15 @@
 package cadastros.sigepe;
 
+
 import java.sql.SQLException;
+
 
 import org.sikuli.script.FindFailed;
 import org.sikuli.script.Key;
 import org.sikuli.script.KeyModifier;
 import org.sikuli.script.Screen;
 
-import consulta.banco.ConsultaCliente;
+
 
 public class CadastroCliente {
 
@@ -41,16 +43,9 @@ public class CadastroCliente {
 		executa.type(Key.F4, KeyModifier.ALT);
 		executa.wait("//TIFIRE-SUPORTE0/imagens/TelaInicial.png", 5);
 
-		if (executa.exists("//TIFIRE-SUPORTE0/imagens/houver.png") != null) {
-			System.out.println("Houve Algum Erro");
-			return;
-
-		} else {
-			ConsultaCliente consulta = new ConsultaCliente();
-
-			consulta.ConsultaCli();
 		}
 
 	}
 
-}
+	
+	

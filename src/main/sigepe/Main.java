@@ -5,7 +5,7 @@ import java.sql.SQLException;
 import org.sikuli.script.App;
 import org.sikuli.script.FindFailed;
 
-import com.banco.dao.Acesso;
+import com.banco.dao.Conexaobanco;
 
 import cadastros.sigepe.CadastroCliente;
 import cadastros.sigepe.CadastroFornecedor;

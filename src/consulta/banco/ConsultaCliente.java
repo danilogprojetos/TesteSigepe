@@ -25,6 +25,7 @@ public class ConsultaCliente {
 		Statement stm = co.createStatement();
 
 		stm = co.createStatement();
+		 
 		ResultSet rs = stm.executeQuery("SELECT * FROM Cliente ORDER BY cod DESC LIMIT 1");
 
 	while (rs.next()) {

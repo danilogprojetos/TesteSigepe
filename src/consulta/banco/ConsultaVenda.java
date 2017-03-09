@@ -10,9 +10,9 @@ import java.sql.Time;
 
 import javax.xml.crypto.Data;
 
-import com.banco.dao.Acesso;
+import com.banco.dao.Conexaobanco;
 
-public class ConsultaVenda extends Acesso {
+public class ConsultaVenda extends Conexaobanco {
 
 	public void ConsultaPedSai() throws ClassNotFoundException, SQLException {
 
