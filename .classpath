@@ -4,5 +4,9 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_121"/>
 	<classpathentry kind="lib" path="E:/Java/TesteAuto/TesteAuto/postgresql-42.0.0.jar"/>
 	<classpathentry kind="lib" path="E:/Java/TesteAuto/TesteAuto/sikulix.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="E:/Java/TesteAuto/hibernate-release-4.2.21.Final.zip"/>
+	<classpathentry kind="lib" path="E:/Java/TesteAuto/hibernate-release-5.2.8.Final.zip"/>
+	<classpathentry kind="lib" path="E:/Java/TesteAuto/eclipselink.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
