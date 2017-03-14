@@ -2,38 +2,36 @@ package com.banco.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class Conexaobanco {
 
-	
-	private static final String USERNAME = "postgres";
+	public void ConsultaCli() throws ClassNotFoundException, SQLException {
 
-	
-	private static final String PASSWORD = "1";
+		String url = "jdbc:postgresql://localhost:5432/teste_viverde";
+		String usuario = "postgres";
+		String senha = "1";
 
-	
-	private static final String DATABASE_URL = "jdbc:postgresql://localhost:5432/teste_viverde";
+		Class.forName("org.postgresql.Driver");
 
+		Connection co;
 
-	public static Connection createConnectionToMySQL() throws Exception {
-		Class.forName("org.postgresql.Driver"); 
+		co = DriverManager.getConnection(url, usuario, senha);
 
-	
-		Connection connection = DriverManager.getConnection(DATABASE_URL, USERNAME, PASSWORD);
+		System.out.println("Conexão realizada com sucesso.");
 
-		return connection;
-	}
+		Statement stm = co.createStatement();
 
-	public static void main(String[] args) throws Exception {
-
-		
-		Connection con = createConnectionToMySQL();
-
-		
-		if (con != null) {
-			System.out.println("Conexão obtida com sucesso!" + con);
-			con.close();
+		stm = co.createStatement();
 		}
 
+	public void BuscaCliente(){
+		
+		ResultSet rs = stm.executeQuery("SELECT * FROM Cliente ORDER BY cod DESC LIMIT 1");
+		
 	}
+		
 }
+

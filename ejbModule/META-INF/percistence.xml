@@ -1,0 +1,5214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="2.1" xmlns="http://www.eclipse.org/eclipselink/xsds/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eclipse.org/eclipselink/xsds/persistence/orm http://www.eclipse.org/eclipselink/xsds/eclipselink_orm_2_1.xsd">
+    <named-query name="Abrcc.findAll">
+        <query>select a from Abrcc a</query>
+    </named-query>
+    <named-query name="Acecon.findAll">
+        <query>select a from Acecon a</query>
+    </named-query>
+    <named-query name="Acemaq.findAll">
+        <query>select a from Acemaq a</query>
+    </named-query>
+    <named-query name="Acemer.findAll">
+        <query>select a from Acemer a</query>
+    </named-query>
+    <named-query name="Acesso.findAll">
+        <query>select a from Acesso a</query>
+    </named-query>
+    <named-query name="Bal.findAll">
+        <query>select b from Bal b</query>
+    </named-query>
+    <named-query name="Banco.findAll">
+        <query>select b from Banco b</query>
+    </named-query>
+    <named-query name="Bloalt.findAll">
+        <query>select b from Bloalt b</query>
+    </named-query>
+    <named-query name="Cadastro.findAll">
+        <query>select c from Cadastro c</query>
+    </named-query>
+    <named-query name="Caixa.findAll">
+        <query>select c from Caixa c</query>
+    </named-query>
+    <named-query name="Carcobcc.findAll">
+        <query>select c from Carcobcc c</query>
+    </named-query>
+    <named-query name="Carcorele.findAll">
+        <query>select c from Carcorele c</query>
+    </named-query>
+    <named-query name="Catcfo.findAll">
+        <query>select c from Catcfo c</query>
+    </named-query>
+    <named-query name="Categori.findAll">
+        <query>select c from Categori c</query>
+    </named-query>
+    <named-query name="Cc.findAll">
+        <query>select c from Cc c</query>
+    </named-query>
+    <named-query name="Cencus.findAll">
+        <query>select c from Cencus c</query>
+    </named-query>
+    <named-query name="Cengui.findAll">
+        <query>select c from Cengui c</query>
+    </named-query>
+    <named-query name="Cfo.findAll">
+        <query>select c from Cfo c</query>
+    </named-query>
+    <named-query name="Chdevrec.findAll">
+        <query>select c from Chdevrec c</query>
+    </named-query>
+    <named-query name="Chemi.findAll">
+        <query>select c from Chemi c</query>
+    </named-query>
+    <named-query name="Chrec.findAll">
+        <query>select c from Chrec c</query>
+    </named-query>
+    <named-query name="Chrecdep.findAll">
+        <query>select c from Chrecdep c</query>
+    </named-query>
+    <named-query name="Chreppag.findAll">
+        <query>select c from Chreppag c</query>
+    </named-query>
+    <named-query name="Chxpag.findAll">
+        <query>select c from Chxpag c</query>
+    </named-query>
+    <named-query name="Chxrec.findAll">
+        <query>select c from Chxrec c</query>
+    </named-query>
+    <named-query name="Cidade.findAll">
+        <query>select c from Cidade c</query>
+    </named-query>
+    <named-query name="Clafi.findAll">
+        <query>select c from Clafi c</query>
+    </named-query>
+    <named-query name="Clafiscfo.findAll">
+        <query>select c from Clafiscfo c</query>
+    </named-query>
+    <named-query name="Cliente.findAll">
+        <query>select c from Cliente c</query>
+    </named-query>
+    <named-query name="Cob.findAll">
+        <query>select c from Cob c</query>
+    </named-query>
+    <named-query name="Comissao.findAll">
+        <query>select c from Comissao c</query>
+    </named-query>
+    <named-query name="Commer.findAll">
+        <query>select c from Commer c</query>
+    </named-query>
+    <named-query name="Commerpad.findAll">
+        <query>select c from Commerpad c</query>
+    </named-query>
+    <named-query name="Commerpr.findAll">
+        <query>select c from Commerpr c</query>
+    </named-query>
+    <named-query name="Commertam.findAll">
+        <query>select c from Commertam c</query>
+    </named-query>
+    <named-query name="Comparrec.findAll">
+        <query>select c from Comparrec c</query>
+    </named-query>
+    <named-query name="Comvenparrec.findAll">
+        <query>select c from Comvenparrec c</query>
+    </named-query>
+    <named-query name="Config.findAll">
+        <query>select c from Config c</query>
+    </named-query>
+    <named-query name="Conimp.findAll">
+        <query>select c from Conimp c</query>
+    </named-query>
+    <named-query name="Conlog.findAll">
+        <query>select c from Conlog c</query>
+    </named-query>
+    <named-query name="Conmdf.findAll">
+        <query>select c from Conmdf c</query>
+    </named-query>
+    <named-query name="Conpag.findAll">
+        <query>select c from Conpag c</query>
+    </named-query>
+    <named-query name="Conpagde.findAll">
+        <query>select c from Conpagde c</query>
+    </named-query>
+    <named-query name="Conpedsa.findAll">
+        <query>select c from Conpedsa c</query>
+    </named-query>
+    <named-query name="Convenio.findAll">
+        <query>select c from Convenio c</query>
+    </named-query>
+    <named-query name="Cot.findAll">
+        <query>select c from Cot c</query>
+    </named-query>
+    <named-query name="Cotger.findAll">
+        <query>select c from Cotger c</query>
+    </named-query>
+    <named-query name="Crimer.findAll">
+        <query>select c from Crimer c</query>
+    </named-query>
+    <named-query name="Cupom.findAll">
+        <query>select c from Cupom c</query>
+    </named-query>
+    <named-query name="Cusmer.findAll">
+        <query>select c from Cusmer c</query>
+    </named-query>
+    <named-query name="Dadcobpag.findAll">
+        <query>select d from Dadcobpag d</query>
+    </named-query>
+    <named-query name="Dadcobrec.findAll">
+        <query>select d from Dadcobrec d</query>
+    </named-query>
+    <named-query name="Dadprorur.findAll">
+        <query>select d from Dadprorur d</query>
+    </named-query>
+    <named-query name="Decimp.findAll">
+        <query>select d from Decimp d</query>
+    </named-query>
+    <named-query name="Decimpadi.findAll">
+        <query>select d from Decimpadi d</query>
+    </named-query>
+    <named-query name="De.findAll">
+        <query>select d from De d</query>
+    </named-query>
+    <named-query name="Desimp.findAll">
+        <query>select d from Desimp d</query>
+    </named-query>
+    <named-query name="Desip.findAll">
+        <query>select d from Desip d</query>
+    </named-query>
+    <named-query name="Desrec.findAll">
+        <query>select d from Desrec d</query>
+    </named-query>
+    <named-query name="Destabpr.findAll">
+        <query>select d from Destabpr d</query>
+    </named-query>
+    <named-query name="Detcommer.findAll">
+        <query>select d from Detcommer d</query>
+    </named-query>
+    <named-query name="Detcuspedsai.findAll">
+        <query>select d from Detcuspedsai d</query>
+    </named-query>
+    <named-query name="Detmer.findAll">
+        <query>select d from Detmer d</query>
+    </named-query>
+    <named-query name="Detope.findAll">
+        <query>select d from Detope d</query>
+    </named-query>
+    <named-query name="Dev.findAll">
+        <query>select d from Dev d</query>
+    </named-query>
+    <named-query name="Devaut.findAll">
+        <query>select d from Devaut d</query>
+    </named-query>
+    <named-query name="Devcom.findAll">
+        <query>select d from Devcom d</query>
+    </named-query>
+    <named-query name="Difest.findAll">
+        <query>select d from Difest d</query>
+    </named-query>
+    <named-query name="Docfismdf.findAll">
+        <query>select d from Docfismdf d</query>
+    </named-query>
+    <named-query name="Esp.findAll">
+        <query>select e from Esp e</query>
+    </named-query>
+    <named-query name="Est.findAll">
+        <query>select e from Est e</query>
+    </named-query>
+    <named-query name="Estado.findAll">
+        <query>select e from Estado e</query>
+    </named-query>
+    <named-query name="Etapedpr.findAll">
+        <query>select e from Etapedpr e</query>
+    </named-query>
+    <named-query name="Evefin.findAll">
+        <query>select e from Evefin e</query>
+    </named-query>
+    <named-query name="Extrato.findAll">
+        <query>select e from Extrato e</query>
+    </named-query>
+    <named-query name="Forcotger.findAll">
+        <query>select f from Forcotger f</query>
+    </named-query>
+    <named-query name="Forneced.findAll">
+        <query>select f from Forneced f</query>
+    </named-query>
+    <named-query name="Forpag.findAll">
+        <query>select f from Forpag f</query>
+    </named-query>
+    <named-query name="Guia.findAll">
+        <query>select g from Guia g</query>
+    </named-query>
+    <named-query name="Guiate.findAll">
+        <query>select g from Guiate g</query>
+    </named-query>
+    <named-query name="Hiscob.findAll">
+        <query>select h from Hiscob h</query>
+    </named-query>
+    <named-query name="Hisvalcusmer.findAll">
+        <query>select h from Hisvalcusmer h</query>
+    </named-query>
+    <named-query name="Impecf.findAll">
+        <query>select i from Impecf i</query>
+    </named-query>
+    <named-query name="Impnf.findAll">
+        <query>select i from Impnf i</query>
+    </named-query>
+    <named-query name="Impordcom.findAll">
+        <query>select i from Impordcom i</query>
+    </named-query>
+    <named-query name="Imposto.findAll">
+        <query>select i from Imposto i</query>
+    </named-query>
+    <named-query name="Imppeden.findAll">
+        <query>select i from Imppeden i</query>
+    </named-query>
+    <named-query name="Imppedsa.findAll">
+        <query>select i from Imppedsa i</query>
+    </named-query>
+    <named-query name="Impsuf.findAll">
+        <query>select i from Impsuf i</query>
+    </named-query>
+    <named-query name="Iteacemer.findAll">
+        <query>select i from Iteacemer i</query>
+    </named-query>
+    <named-query name="Itebal.findAll">
+        <query>select i from Itebal i</query>
+    </named-query>
+    <named-query name="Itecot.findAll">
+        <query>select i from Itecot i</query>
+    </named-query>
+    <named-query name="Itecotger.findAll">
+        <query>select i from Itecotger i</query>
+    </named-query>
+    <named-query name="Itecup.findAll">
+        <query>select i from Itecup i</query>
+    </named-query>
+    <named-query name="Itedetmer.findAll">
+        <query>select i from Itedetmer i</query>
+    </named-query>
+    <named-query name="Itedev.findAll">
+        <query>select i from Itedev i</query>
+    </named-query>
+    <named-query name="Itedevco.findAll">
+        <query>select i from Itedevco i</query>
+    </named-query>
+    <named-query name="Itedife.findAll">
+        <query>select i from Itedife i</query>
+    </named-query>
+    <named-query name="Iteest.findAll">
+        <query>select i from Iteest i</query>
+    </named-query>
+    <named-query name="Iteleietipro.findAll">
+        <query>select i from Iteleietipro i</query>
+    </named-query>
+    <named-query name="Itenotfi.findAll">
+        <query>select i from Itenotfi i</query>
+    </named-query>
+    <named-query name="Iteorc.findAll">
+        <query>select i from Iteorc i</query>
+    </named-query>
+    <named-query name="Iteordcom.findAll">
+        <query>select i from Iteordcom i</query>
+    </named-query>
+    <named-query name="Iteordcor.findAll">
+        <query>select i from Iteordcor i</query>
+    </named-query>
+    <named-query name="Iteped.findAll">
+        <query>select i from Iteped i</query>
+    </named-query>
+    <named-query name="Itepeden.findAll">
+        <query>select i from Itepeden i</query>
+    </named-query>
+    <named-query name="Itepedsa.findAll">
+        <query>select i from Itepedsa i</query>
+    </named-query>
+    <named-query name="Itereqma.findAll">
+        <query>select i from Itereqma i</query>
+    </named-query>
+    <named-query name="Itetabpr.findAll">
+        <query>select i from Itetabpr i</query>
+    </named-query>
+    <named-query name="Itetra.findAll">
+        <query>select i from Itetra i</query>
+    </named-query>
+    <named-query name="Itetrode.findAll">
+        <query>select i from Itetrode i</query>
+    </named-query>
+    <named-query name="Itevenco.findAll">
+        <query>select i from Itevenco i</query>
+    </named-query>
+    <named-query name="Labexa.findAll">
+        <query>select l from Labexa l</query>
+    </named-query>
+    <named-query name="Lacunicarunitradocfismdf.findAll">
+        <query>select l from Lacunicarunitradocfismdf l</query>
+    </named-query>
+    <named-query name="Lacunitradocfismdf.findAll">
+        <query>select l from Lacunitradocfismdf l</query>
+    </named-query>
+    <named-query name="Lancai.findAll">
+        <query>select l from Lancai l</query>
+    </named-query>
+    <named-query name="Lancc.findAll">
+        <query>select l from Lancc l</query>
+    </named-query>
+    <named-query name="Leietipro.findAll">
+        <query>select l from Leietipro l</query>
+    </named-query>
+    <named-query name="Loccarmdf.findAll">
+        <query>select l from Loccarmdf l</query>
+    </named-query>
+    <named-query name="Locmaq.findAll">
+        <query>select l from Locmaq l</query>
+    </named-query>
+    <named-query name="Log.findAll">
+        <query>select l from Log l</query>
+    </named-query>
+    <named-query name="Mandocfi.findAll">
+        <query>select m from Mandocfi m</query>
+    </named-query>
+    <named-query name="Manmaq.findAll">
+        <query>select m from Manmaq m</query>
+    </named-query>
+    <named-query name="Maoobr.findAll">
+        <query>select m from Maoobr m</query>
+    </named-query>
+    <named-query name="Maqprome.findAll">
+        <query>select m from Maqprome m</query>
+    </named-query>
+    <named-query name="Maquina.findAll">
+        <query>select m from Maquina m</query>
+    </named-query>
+    <named-query name="Marca.findAll">
+        <query>select m from Marca m</query>
+    </named-query>
+    <named-query name="Medida.findAll">
+        <query>select m from Medida m</query>
+    </named-query>
+    <named-query name="Medtem.findAll">
+        <query>select m from Medtem m</query>
+    </named-query>
+    <named-query name="Merace.findAll">
+        <query>select m from Merace m</query>
+    </named-query>
+    <named-query name="Mercador.findAll">
+        <query>select m from Mercador m</query>
+    </named-query>
+    <named-query name="Mercodbar.findAll">
+        <query>select m from Mercodbar m</query>
+    </named-query>
+    <named-query name="Merfor.findAll">
+        <query>select m from Merfor m</query>
+    </named-query>
+    <named-query name="Mermed.findAll">
+        <query>select m from Mermed m</query>
+    </named-query>
+    <named-query name="Modmdf.findAll">
+        <query>select m from Modmdf m</query>
+    </named-query>
+    <named-query name="Motordser.findAll">
+        <query>select m from Motordser m</query>
+    </named-query>
+    <named-query name="Movcrecli.findAll">
+        <query>select m from Movcrecli m</query>
+    </named-query>
+    <named-query name="Movevefin.findAll">
+        <query>select m from Movevefin m</query>
+    </named-query>
+    <named-query name="Movplaco.findAll">
+        <query>select m from Movplaco m</query>
+    </named-query>
+    <named-query name="Mundesmdf.findAll">
+        <query>select m from Mundesmdf m</query>
+    </named-query>
+    <named-query name="Ncmnb.findAll">
+        <query>select n from Ncmnb n</query>
+    </named-query>
+    <named-query name="Notfi.findAll">
+        <query>select n from Notfi n</query>
+    </named-query>
+    <named-query name="Notfismov.findAll">
+        <query>select n from Notfismov n</query>
+    </named-query>
+    <named-query name="Notfisref.findAll">
+        <query>select n from Notfisref n</query>
+    </named-query>
+    <named-query name="Opecrimer.findAll">
+        <query>select o from Opecrimer o</query>
+    </named-query>
+    <named-query name="Opepro.findAll">
+        <query>select o from Opepro o</query>
+    </named-query>
+    <named-query name="Opeprome.findAll">
+        <query>select o from Opeprome o</query>
+    </named-query>
+    <named-query name="Orc.findAll">
+        <query>select o from Orc o</query>
+    </named-query>
+    <named-query name="Ordcom.findAll">
+        <query>select o from Ordcom o</query>
+    </named-query>
+    <named-query name="Ordcor.findAll">
+        <query>select o from Ordcor o</query>
+    </named-query>
+    <named-query name="Ordcorpedsai.findAll">
+        <query>select o from Ordcorpedsai o</query>
+    </named-query>
+    <named-query name="Ordser.findAll">
+        <query>select o from Ordser o</query>
+    </named-query>
+    <named-query name="Orimer.findAll">
+        <query>select o from Orimer o</query>
+    </named-query>
+    <named-query name="Padmer.findAll">
+        <query>select p from Padmer p</query>
+    </named-query>
+    <named-query name="Padpar.findAll">
+        <query>select p from Padpar p</query>
+    </named-query>
+    <named-query name="Pagar.findAll">
+        <query>select p from Pagar p</query>
+    </named-query>
+    <named-query name="Pai.findAll">
+        <query>select p from Pai p</query>
+    </named-query>
+    <named-query name="Parnotfi.findAll">
+        <query>select p from Parnotfi p</query>
+    </named-query>
+    <named-query name="Parpag.findAll">
+        <query>select p from Parpag p</query>
+    </named-query>
+    <named-query name="Parpagcc.findAll">
+        <query>select p from Parpagcc p</query>
+    </named-query>
+    <named-query name="Parped.findAll">
+        <query>select p from Parped p</query>
+    </named-query>
+    <named-query name="Parrec.findAll">
+        <query>select p from Parrec p</query>
+    </named-query>
+    <named-query name="Parrecrep.findAll">
+        <query>select p from Parrecrep p</query>
+    </named-query>
+    <named-query name="Ped.findAll">
+        <query>select p from Ped p</query>
+    </named-query>
+    <named-query name="Pedent.findAll">
+        <query>select p from Pedent p</query>
+    </named-query>
+    <named-query name="Pedpro.findAll">
+        <query>select p from Pedpro p</query>
+    </named-query>
+    <named-query name="Pedsai.findAll">
+        <query>select p from Pedsai p</query>
+    </named-query>
+    <named-query name="Pedsairec.findAll">
+        <query>select p from Pedsairec p</query>
+    </named-query>
+    <named-query name="Placon.findAll">
+        <query>select p from Placon p</query>
+    </named-query>
+    <named-query name="Plaven.findAll">
+        <query>select p from Plaven p</query>
+    </named-query>
+    <named-query name="Preporquaven.findAll">
+        <query>select p from Preporquaven p</query>
+    </named-query>
+    <named-query name="Prerevcl.findAll">
+        <query>select p from Prerevcl p</query>
+    </named-query>
+    <named-query name="Recado.findAll">
+        <query>select r from Recado r</query>
+    </named-query>
+    <named-query name="Receber.findAll">
+        <query>select r from Receber r</query>
+    </named-query>
+    <named-query name="Regiao.findAll">
+        <query>select r from Regiao r</query>
+    </named-query>
+    <named-query name="Reprec.findAll">
+        <query>select r from Reprec r</query>
+    </named-query>
+    <named-query name="Represen.findAll">
+        <query>select r from Represen r</query>
+    </named-query>
+    <named-query name="Reqcom.findAll">
+        <query>select r from Reqcom r</query>
+    </named-query>
+    <named-query name="Reqmat.findAll">
+        <query>select r from Reqmat r</query>
+    </named-query>
+    <named-query name="Rom.findAll">
+        <query>select r from Rom r</query>
+    </named-query>
+    <named-query name="Saladipag.findAll">
+        <query>select s from Saladipag s</query>
+    </named-query>
+    <named-query name="Saladirec.findAll">
+        <query>select s from Saladirec s</query>
+    </named-query>
+    <named-query name="Salcrecli.findAll">
+        <query>select s from Salcrecli s</query>
+    </named-query>
+    <named-query name="Secmer.findAll">
+        <query>select s from Secmer s</query>
+    </named-query>
+    <named-query name="Sitopesimnac.findAll">
+        <query>select s from Sitopesimnac s</query>
+    </named-query>
+    <named-query name="Subsecmer.findAll">
+        <query>select s from Subsecmer s</query>
+    </named-query>
+    <named-query name="Subtippa.findAll">
+        <query>select s from Subtippa s</query>
+    </named-query>
+    <named-query name="Subtipre.findAll">
+        <query>select s from Subtipre s</query>
+    </named-query>
+    <named-query name="Tabpre.findAll">
+        <query>select t from Tabpre t</query>
+    </named-query>
+    <named-query name="Tamanho.findAll">
+        <query>select t from Tamanho t</query>
+    </named-query>
+    <named-query name="Tipcai.findAll">
+        <query>select t from Tipcai t</query>
+    </named-query>
+    <named-query name="Tipcar.findAll">
+        <query>select t from Tipcar t</query>
+    </named-query>
+    <named-query name="Tipcc.findAll">
+        <query>select t from Tipcc t</query>
+    </named-query>
+    <named-query name="Tipcrepiscof.findAll">
+        <query>select t from Tipcrepiscof t</query>
+    </named-query>
+    <named-query name="Tipfun.findAll">
+        <query>select t from Tipfun t</query>
+    </named-query>
+    <named-query name="Tipfunma.findAll">
+        <query>select t from Tipfunma t</query>
+    </named-query>
+    <named-query name="Tippag.findAll">
+        <query>select t from Tippag t</query>
+    </named-query>
+    <named-query name="Tippro.findAll">
+        <query>select t from Tippro t</query>
+    </named-query>
+    <named-query name="Tiprec.findAll">
+        <query>select t from Tiprec t</query>
+    </named-query>
+    <named-query name="Tiprod.findAll">
+        <query>select t from Tiprod t</query>
+    </named-query>
+    <named-query name="Tipunicar.findAll">
+        <query>select t from Tipunicar t</query>
+    </named-query>
+    <named-query name="Tipunitra.findAll">
+        <query>select t from Tipunitra t</query>
+    </named-query>
+    <named-query name="Tpclifat.findAll">
+        <query>select t from Tpclifat t</query>
+    </named-query>
+    <named-query name="Transfer.findAll">
+        <query>select t from Transfer t</query>
+    </named-query>
+    <named-query name="Traped.findAll">
+        <query>select t from Traped t</query>
+    </named-query>
+    <named-query name="Trapeden.findAll">
+        <query>select t from Trapeden t</query>
+    </named-query>
+    <named-query name="Trapedsa.findAll">
+        <query>select t from Trapedsa t</query>
+    </named-query>
+    <named-query name="Triicm.findAll">
+        <query>select t from Triicm t</query>
+    </named-query>
+    <named-query name="Triicmcf.findAll">
+        <query>select t from Triicmcf t</query>
+    </named-query>
+    <named-query name="Triipi.findAll">
+        <query>select t from Triipi t</query>
+    </named-query>
+    <named-query name="Tripiscof.findAll">
+        <query>select t from Tripiscof t</query>
+    </named-query>
+    <named-query name="Trodev.findAll">
+        <query>select t from Trodev t</query>
+    </named-query>
+    <named-query name="Troparrec.findAll">
+        <query>select t from Troparrec t</query>
+    </named-query>
+    <named-query name="Unicarunitradocfismdf.findAll">
+        <query>select u from Unicarunitradocfismdf u</query>
+    </named-query>
+    <named-query name="Unifedpermdf.findAll">
+        <query>select u from Unifedpermdf u</query>
+    </named-query>
+    <named-query name="Unimed.findAll">
+        <query>select u from Unimed u</query>
+    </named-query>
+    <named-query name="Unitradocfismdf.findAll">
+        <query>select u from Unitradocfismdf u</query>
+    </named-query>
+    <named-query name="Usuario.findAll">
+        <query>select u from Usuario u</query>
+    </named-query>
+    <named-query name="Usuplacon.findAll">
+        <query>select u from Usuplacon u</query>
+    </named-query>
+    <named-query name="Usurec.findAll">
+        <query>select u from Usurec u</query>
+    </named-query>
+    <named-query name="Valpedmdf.findAll">
+        <query>select v from Valpedmdf v</query>
+    </named-query>
+    <named-query name="Vei.findAll">
+        <query>select v from Vei v</query>
+    </named-query>
+    <named-query name="Vencon.findAll">
+        <query>select v from Vencon v</query>
+    </named-query>
+    <named-query name="Vendedor.findAll">
+        <query>select v from Vendedor v</query>
+    </named-query>
+    <named-query name="Venven.findAll">
+        <query>select v from Venven v</query>
+    </named-query>
+    <named-query name="Volnotfi.findAll">
+        <query>select v from Volnotfi v</query>
+    </named-query>
+    <named-query name="Volpeden.findAll">
+        <query>select v from Volpeden v</query>
+    </named-query>
+    <named-query name="Volpedsa.findAll">
+        <query>select v from Volpedsa v</query>
+    </named-query>
+	<entity class="model.Abrcc" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcc" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="horfin" attribute-type="java.sql.Time">
+			</basic>
+			<basic name="horini" attribute-type="java.sql.Time">
+			</basic>
+			<basic name="valini" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Acecon" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codacepri" attribute-type="Integer">
+			</basic>
+			<basic name="codacesec" attribute-type="Integer">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Acemaq" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmaq" attribute-type="Integer">
+			</basic>
+			<basic name="codmaqpromer" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Acemer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="acemer" attribute-type="String">
+			</basic>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="des" attribute-type="String">
+			</basic>
+			<basic name="mosdes" attribute-type="Integer">
+			</basic>
+			<basic name="ord" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Acesso" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.AcessoPK"></embedded-id>
+			<basic name="lib" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Bal" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="balpar" attribute-type="Integer">
+			</basic>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="con" attribute-type="Integer">
+			</basic>
+			<basic name="datcon" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datini" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Banco" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="ban" attribute-type="String">
+			</basic>
+			<basic name="poradm" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Bloalt" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="datalt" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="numblo" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Cadastro" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="cad" attribute-type="String">
+			</basic>
+			<basic name="des" attribute-type="String">
+			</basic>
+			<basic name="mod" attribute-type="String">
+			</basic>
+			<basic name="valdef" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Caixa" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="cup" attribute-type="Integer">
+			</basic>
+			<basic name="nomcom" attribute-type="String">
+			</basic>
+			<basic name="notfis" attribute-type="Integer">
+			</basic>
+			<basic name="porcup" attribute-type="String">
+			</basic>
+			<basic name="pornotfis" attribute-type="String">
+			</basic>
+			<basic name="salche" attribute-type="double">
+			</basic>
+			<basic name="saldin" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Carcobcc" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ace" attribute-type="String">
+			</basic>
+			<basic name="car" attribute-type="String">
+			</basic>
+			<basic name="ced" attribute-type="String">
+			</basic>
+			<basic name="codcc" attribute-type="Integer">
+			</basic>
+			<basic name="codemp" attribute-type="String">
+			</basic>
+			<basic name="datconhom" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datpedhom" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="diapro" attribute-type="Integer">
+			</basic>
+			<basic name="digced" attribute-type="String">
+			</basic>
+			<basic name="emiblo" attribute-type="String">
+			</basic>
+			<basic name="envemarem" attribute-type="Integer">
+			</basic>
+			<basic name="gerrem" attribute-type="Integer">
+			</basic>
+			<basic name="hom" attribute-type="Integer">
+			</basic>
+			<basic name="insbol" attribute-type="byte[]">
+			</basic>
+			<basic name="liccobbem" attribute-type="String">
+			</basic>
+			<basic name="modser" attribute-type="String">
+			</basic>
+			<basic name="pro" attribute-type="Integer">
+			</basic>
+			<basic name="pronumbol" attribute-type="String">
+			</basic>
+			<basic name="tipdia" attribute-type="Integer">
+			</basic>
+			<basic name="var" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Carcorele" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="chanfe" attribute-type="String">
+			</basic>
+			<basic name="cnotfis" attribute-type="Integer">
+			</basic>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="codnotfis" attribute-type="Integer">
+			</basic>
+			<basic name="cor" attribute-type="byte[]">
+			</basic>
+			<basic name="dathoreveret" attribute-type="String">
+			</basic>
+			<basic name="lot" attribute-type="Integer">
+			</basic>
+			<basic name="motstaret" attribute-type="String">
+			</basic>
+			<basic name="numpro" attribute-type="String">
+			</basic>
+			<basic name="seqeve" attribute-type="Integer">
+			</basic>
+			<basic name="staret" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Catcfo" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="catcfo" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Categori" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="cat" attribute-type="String">
+			</basic>
+			<basic name="codest" attribute-type="Integer">
+			</basic>
+			<basic name="dirfil" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Cc" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="age" attribute-type="String">
+			</basic>
+			<basic name="agedig" attribute-type="String">
+			</basic>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="car" attribute-type="String">
+			</basic>
+			<basic name="cc" attribute-type="String">
+			</basic>
+			<basic name="ccdig" attribute-type="String">
+			</basic>
+			<basic name="ced" attribute-type="String">
+			</basic>
+			<basic name="ceddig" attribute-type="String">
+			</basic>
+			<basic name="cgc" attribute-type="String">
+			</basic>
+			<basic name="codban" attribute-type="Integer">
+			</basic>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codcccor" attribute-type="Integer">
+			</basic>
+			<basic name="consalblo" attribute-type="Integer">
+			</basic>
+			<basic name="entflucai" attribute-type="Integer">
+			</basic>
+			<basic name="fon" attribute-type="String">
+			</basic>
+			<basic name="fonage" attribute-type="String">
+			</basic>
+			<basic name="gercon" attribute-type="String">
+			</basic>
+			<basic name="ins" attribute-type="byte[]">
+			</basic>
+			<basic name="limcre" attribute-type="double">
+			</basic>
+			<basic name="limdes" attribute-type="double">
+			</basic>
+			<basic name="locpag" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="String">
+			</basic>
+			<basic name="padcna" attribute-type="String">
+			</basic>
+			<basic name="pasarqrem" attribute-type="String">
+			</basic>
+			<basic name="porjurlimcre" attribute-type="double">
+			</basic>
+			<basic name="porjurlimdes" attribute-type="double">
+			</basic>
+			<basic name="pos" attribute-type="String">
+			</basic>
+			<basic name="proch" attribute-type="Integer">
+			</basic>
+			<basic name="pronumbol" attribute-type="String">
+			</basic>
+			<basic name="raz" attribute-type="String">
+			</basic>
+			<basic name="rua" attribute-type="String">
+			</basic>
+			<basic name="sal" attribute-type="double">
+			</basic>
+			<basic name="salblo" attribute-type="double">
+			</basic>
+			<basic name="salexp" attribute-type="double">
+			</basic>
+			<basic name="seqarqrem" attribute-type="String">
+			</basic>
+			<basic name="uticai" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Cencus" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="bai" attribute-type="String">
+			</basic>
+			<basic name="blo" attribute-type="Integer">
+			</basic>
+			<basic name="cencus" attribute-type="String">
+			</basic>
+			<basic name="codcencus" attribute-type="Integer">
+			</basic>
+			<basic name="codcid" attribute-type="Integer">
+			</basic>
+			<basic name="codfor" attribute-type="Integer">
+			</basic>
+			<basic name="efi" attribute-type="double">
+			</basic>
+			<basic name="rua" attribute-type="String">
+			</basic>
+			<basic name="usaint" attribute-type="Integer">
+			</basic>
+			<basic name="valhor" attribute-type="double">
+			</basic>
+			<basic name="valtetpercot" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Cengui" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="cengui" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Cfo" access="VIRTUAL">
+		<attributes>
+			<id name="cfo" attribute-type="String">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="codcatcfo" attribute-type="Integer">
+			</basic>
+			<basic name="codtipcrepiscof" attribute-type="Integer">
+			</basic>
+			<basic name="codtriicm" attribute-type="Integer">
+			</basic>
+			<basic name="des" attribute-type="byte[]">
+			</basic>
+			<basic name="descof" attribute-type="Integer">
+			</basic>
+			<basic name="desipi" attribute-type="Integer">
+			</basic>
+			<basic name="desnotfis" attribute-type="String">
+			</basic>
+			<basic name="despis" attribute-type="Integer">
+			</basic>
+			<basic name="finnotfis" attribute-type="Integer">
+			</basic>
+			<basic name="habconimpnotfis" attribute-type="Integer">
+			</basic>
+			<basic name="men" attribute-type="String">
+			</basic>
+			<basic name="tipmovfis" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Chdevrec" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ChdevrecPK"></embedded-id>
+			<basic name="datdev" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="valpag" attribute-type="double">
+			</basic>
+			<basic name="valtotch" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Chemi" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ChemiPK"></embedded-id>
+			<basic name="con" attribute-type="Integer">
+			</basic>
+			<basic name="datcon" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datemi" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datlan" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datpre" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="his" attribute-type="String">
+			</basic>
+			<basic name="nom" attribute-type="String">
+			</basic>
+			<basic name="vlr" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Chrec" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="age" attribute-type="Integer">
+			</basic>
+			<basic name="ch" attribute-type="Integer">
+			</basic>
+			<basic name="codban" attribute-type="Integer">
+			</basic>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codcc" attribute-type="Integer">
+			</basic>
+			<basic name="con" attribute-type="Integer">
+			</basic>
+			<basic name="datcon" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datdev" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datemi" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datlan" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datpre" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="emi" attribute-type="String">
+			</basic>
+			<basic name="his" attribute-type="String">
+			</basic>
+			<basic name="numcon" attribute-type="String">
+			</basic>
+			<basic name="rep" attribute-type="String">
+			</basic>
+			<basic name="vlr" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Chrecdep" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ChrecdepPK"></embedded-id>
+		</attributes>
+	</entity>
+	<entity class="model.Chreppag" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ChreppagPK"></embedded-id>
+		</attributes>
+	</entity>
+	<entity class="model.Chxpag" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ChxpagPK"></embedded-id>
+		</attributes>
+	</entity>
+	<entity class="model.Chxrec" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ChxrecPK"></embedded-id>
+		</attributes>
+	</entity>
+	<entity class="model.Cidade" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="cepgercid" attribute-type="String">
+			</basic>
+			<basic name="cid" attribute-type="String">
+			</basic>
+			<basic name="codciddim" attribute-type="Integer">
+			</basic>
+			<basic name="codibg" attribute-type="Integer">
+			</basic>
+			<basic name="codpai" attribute-type="Integer">
+			</basic>
+			<basic name="codreg" attribute-type="Integer">
+			</basic>
+			<basic name="tipo" attribute-type="String">
+			</basic>
+			<basic name="uf" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Clafi" access="VIRTUAL">
+		<table name="clafis"/>
+		<attributes>
+			<id name="cod" attribute-type="String">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="clafis" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Clafiscfo" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="cfo" attribute-type="String">
+			</basic>
+			<basic name="codclafis" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Cliente" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="bai" attribute-type="String">
+			</basic>
+			<basic name="cel" attribute-type="String">
+			</basic>
+			<basic name="cep" attribute-type="String">
+			</basic>
+			<basic name="cgc" attribute-type="String">
+			</basic>
+			<basic name="cidade" attribute-type="String">
+			</basic>
+			<basic name="codcfo" attribute-type="String">
+			</basic>
+			<basic name="codcid" attribute-type="Integer">
+			</basic>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="codgui" attribute-type="Integer">
+			</basic>
+			<basic name="codmun" attribute-type="Integer">
+			</basic>
+			<basic name="codtipclifat" attribute-type="Integer">
+			</basic>
+			<basic name="codven" attribute-type="Integer">
+			</basic>
+			<basic name="comlog" attribute-type="String">
+			</basic>
+			<basic name="con" attribute-type="String">
+			</basic>
+			<basic name="datcad" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="email" attribute-type="String">
+			</basic>
+			<basic name="endereco" attribute-type="String">
+			</basic>
+			<basic name="fan" attribute-type="String">
+			</basic>
+			<basic name="fax" attribute-type="String">
+			</basic>
+			<basic name="fon" attribute-type="String">
+			</basic>
+			<basic name="ins" attribute-type="String">
+			</basic>
+			<basic name="log" attribute-type="String">
+			</basic>
+			<basic name="num" attribute-type="String">
+			</basic>
+			<basic name="numficgui" attribute-type="String">
+			</basic>
+			<basic name="pes" attribute-type="Integer">
+			</basic>
+			<basic name="podgerrem" attribute-type="Integer">
+			</basic>
+			<basic name="raz" attribute-type="String">
+			</basic>
+			<basic name="rua" attribute-type="String">
+			</basic>
+			<basic name="uf" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Cob" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+		</attributes>
+	</entity>
+	<entity class="model.Comissao" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="acrjur" attribute-type="Integer">
+			</basic>
+			<basic name="codpag" attribute-type="Integer">
+			</basic>
+			<basic name="codven" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="divpra" attribute-type="String">
+			</basic>
+			<basic name="forcal" attribute-type="Integer">
+			</basic>
+			<basic name="locind" attribute-type="Integer">
+			</basic>
+			<basic name="subdes" attribute-type="Integer">
+			</basic>
+			<basic name="unival" attribute-type="Integer">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Commer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmermas" attribute-type="Integer">
+			</basic>
+			<basic name="codmersla" attribute-type="Integer">
+			</basic>
+			<basic name="codopepromer" attribute-type="Integer">
+			</basic>
+			<basic name="obs" attribute-type="String">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="quarec" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Commerpad" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmermas" attribute-type="Integer">
+			</basic>
+			<basic name="codmersla" attribute-type="Integer">
+			</basic>
+			<basic name="codopepromer" attribute-type="Integer">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Commerpr" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmermas" attribute-type="Integer">
+			</basic>
+			<basic name="codmersla" attribute-type="Integer">
+			</basic>
+			<basic name="codopepromer" attribute-type="Integer">
+			</basic>
+			<basic name="niv" attribute-type="Integer">
+			</basic>
+			<basic name="quapre" attribute-type="double">
+			</basic>
+			<basic name="quaprepro" attribute-type="double">
+			</basic>
+			<basic name="quarea" attribute-type="double">
+			</basic>
+			<basic name="quareapro" attribute-type="double">
+			</basic>
+			<basic name="sit" attribute-type="Integer">
+			</basic>
+			<basic name="valcuscal" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Commertam" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmermas" attribute-type="Integer">
+			</basic>
+			<basic name="codmersla" attribute-type="Integer">
+			</basic>
+			<basic name="codopepromer" attribute-type="Integer">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Comparrec" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ComparrecPK"></embedded-id>
+			<basic name="codcom" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Comvenparrec" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ComvenparrecPK"></embedded-id>
+			<basic name="codcom" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Config" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="con" attribute-type="String">
+			</basic>
+			<basic name="val" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Conimp" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ali" attribute-type="double">
+			</basic>
+			<basic name="alides" attribute-type="double">
+			</basic>
+			<basic name="codcfo" attribute-type="String">
+			</basic>
+			<basic name="codclafis" attribute-type="String">
+			</basic>
+			<basic name="codimp" attribute-type="Integer">
+			</basic>
+			<basic name="codtipclifat" attribute-type="Integer">
+			</basic>
+			<basic name="codtriicm" attribute-type="Integer">
+			</basic>
+			<basic name="coduf" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="pordif" attribute-type="double">
+			</basic>
+			<basic name="poriva" attribute-type="double">
+			</basic>
+			<basic name="porval" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Conlog" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ope" attribute-type="String">
+			</basic>
+			<basic name="tipmov" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Conmdf" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmandocfis" attribute-type="Integer">
+			</basic>
+			<basic name="codven" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Conpag" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="conpag" attribute-type="String">
+			</basic>
+			<basic name="ord" attribute-type="Integer">
+			</basic>
+			<basic name="por" attribute-type="double">
+			</basic>
+			<basic name="tip" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Conpagde" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ConpagdePK"></embedded-id>
+			<basic name="por" attribute-type="double">
+			</basic>
+			<basic name="porimp" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Conpedsa" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ConpedsaPK"></embedded-id>
+			<basic name="qua" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Convenio" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="codplacon" attribute-type="Integer">
+			</basic>
+			<basic name="con" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Cot" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codcencus" attribute-type="Integer">
+			</basic>
+			<basic name="codusu" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="envreq" attribute-type="Integer">
+			</basic>
+			<basic name="hor" attribute-type="java.sql.Time">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Cotger" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="hor" attribute-type="java.sql.Time">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Crimer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codopecrimer" attribute-type="Integer">
+			</basic>
+			<basic name="datfin" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datini" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="obs" attribute-type="String">
+			</basic>
+			<basic name="quaref" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Cupom" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codconrec" attribute-type="Integer">
+			</basic>
+			<basic name="codimp" attribute-type="Integer">
+			</basic>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="exc" attribute-type="Integer">
+			</basic>
+			<basic name="imp" attribute-type="Integer">
+			</basic>
+			<basic name="numserimp" attribute-type="String">
+			</basic>
+			<basic name="valbru" attribute-type="double">
+			</basic>
+			<basic name="valdif" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Cusmer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="cusmer" attribute-type="String">
+			</basic>
+			<basic name="por" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Dadcobpag" access="VIRTUAL">
+		<attributes>
+			<id name="codparpag" attribute-type="Integer">
+			</id>
+			<basic name="recdup" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Dadcobrec" access="VIRTUAL">
+		<attributes>
+			<id name="codparrec" attribute-type="Integer">
+			</id>
+			<basic name="bai" attribute-type="Integer">
+			</basic>
+			<basic name="car" attribute-type="String">
+			</basic>
+			<basic name="codforpag" attribute-type="Integer">
+			</basic>
+			<basic name="codmovrem" attribute-type="String">
+			</basic>
+			<basic name="descob" attribute-type="double">
+			</basic>
+			<basic name="diabai" attribute-type="Integer">
+			</basic>
+			<basic name="diapro" attribute-type="Integer">
+			</basic>
+			<basic name="disblo" attribute-type="String">
+			</basic>
+			<basic name="emiblo" attribute-type="String">
+			</basic>
+			<basic name="pro" attribute-type="Integer">
+			</basic>
+			<basic name="taxmenjur" attribute-type="double">
+			</basic>
+			<basic name="taxmul" attribute-type="double">
+			</basic>
+			<basic name="tipcob" attribute-type="String">
+			</basic>
+			<basic name="valblo" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Dadprorur" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="cgc" attribute-type="String">
+			</basic>
+			<basic name="cnotfis" attribute-type="Integer">
+			</basic>
+			<basic name="datemi" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="insest" attribute-type="String">
+			</basic>
+			<basic name="mod" attribute-type="String">
+			</basic>
+			<basic name="numnot" attribute-type="Integer">
+			</basic>
+			<basic name="ser" attribute-type="Integer">
+			</basic>
+			<basic name="uf" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Decimp" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codexp" attribute-type="String">
+			</basic>
+			<basic name="coditenotfis" attribute-type="Integer">
+			</basic>
+			<basic name="codser" attribute-type="String">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datdes" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="locdes" attribute-type="String">
+			</basic>
+			<basic name="num" attribute-type="String">
+			</basic>
+			<basic name="ufdes" attribute-type="String">
+			</basic>
+			<basic name="valbascal" attribute-type="double">
+			</basic>
+			<basic name="valdesadu" attribute-type="double">
+			</basic>
+			<basic name="valimp" attribute-type="double">
+			</basic>
+			<basic name="valiof" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Decimpadi" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="coddecimp" attribute-type="Integer">
+			</basic>
+			<basic name="codfab" attribute-type="String">
+			</basic>
+			<basic name="des" attribute-type="double">
+			</basic>
+			<basic name="num" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.De" access="VIRTUAL">
+		<table name="des"/>
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="camnotfis" attribute-type="String">
+			</basic>
+			<basic name="des" attribute-type="String">
+			</basic>
+			<basic name="somondusa" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Desimp" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="cnotfis" attribute-type="Integer">
+			</basic>
+			<basic name="des" attribute-type="String">
+			</basic>
+			<basic name="valdes" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Desip" access="VIRTUAL">
+		<table name="desips"/>
+		<attributes>
+			<id name="coditepedsai" attribute-type="Integer">
+			</id>
+			<basic name="des" attribute-type="byte[]">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Desrec" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codmov" attribute-type="Integer">
+			</basic>
+			<basic name="tipmov" attribute-type="Integer">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Destabpr" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codtabpre" attribute-type="Integer">
+			</basic>
+			<basic name="pordes" attribute-type="double">
+			</basic>
+			<basic name="pramed" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Detcommer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="alt" attribute-type="double">
+			</basic>
+			<basic name="codcommer" attribute-type="Integer">
+			</basic>
+			<basic name="des" attribute-type="String">
+			</basic>
+			<basic name="lar" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Detcuspedsai" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcusmer" attribute-type="Integer">
+			</basic>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+			<basic name="por" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Detmer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="detmer" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Detope" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codopepromer" attribute-type="Integer">
+			</basic>
+			<basic name="detope" attribute-type="String">
+			</basic>
+			<basic name="temtot" attribute-type="java.sql.Time">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Dev" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmov" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="tipmov" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Devaut" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmermas" attribute-type="Integer">
+			</basic>
+			<basic name="codmersla" attribute-type="Integer">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Devcom" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="blo" attribute-type="Integer">
+			</basic>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codfor" attribute-type="Integer">
+			</basic>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="valliq" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Difest" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codbal" attribute-type="Integer">
+			</basic>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="entsai" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="oribal" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Docfismdf" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="chaace" attribute-type="String">
+			</basic>
+			<basic name="coddocfis" attribute-type="Integer">
+			</basic>
+			<basic name="codmundesmdf" attribute-type="Integer">
+			</basic>
+			<basic name="numdocfis" attribute-type="Integer">
+			</basic>
+			<basic name="tip" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Esp" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="esp" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Est" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="est" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Estado" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="String">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="est" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Etapedpr" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codpedpro" attribute-type="Integer">
+			</basic>
+			<basic name="datfin" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datini" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="eta" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Evefin" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="agrrec" attribute-type="String">
+			</basic>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="codcatevefin" attribute-type="Integer">
+			</basic>
+			<basic name="eve" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Extrato" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ExtratoPK"></embedded-id>
+			<basic name="des" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Forcotger" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codfor" attribute-type="Integer">
+			</basic>
+			<basic name="coditecotger" attribute-type="Integer">
+			</basic>
+			<basic name="perdes" attribute-type="double">
+			</basic>
+			<basic name="valite" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Forneced" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="bai" attribute-type="String">
+			</basic>
+			<basic name="cep" attribute-type="String">
+			</basic>
+			<basic name="cgc" attribute-type="String">
+			</basic>
+			<basic name="cidade" attribute-type="String">
+			</basic>
+			<basic name="codcfo" attribute-type="String">
+			</basic>
+			<basic name="codcid" attribute-type="Integer">
+			</basic>
+			<basic name="codrep" attribute-type="Integer">
+			</basic>
+			<basic name="codtipclifat" attribute-type="Integer">
+			</basic>
+			<basic name="datcad" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="des1" attribute-type="double">
+			</basic>
+			<basic name="des2" attribute-type="double">
+			</basic>
+			<basic name="des3" attribute-type="double">
+			</basic>
+			<basic name="des4" attribute-type="double">
+			</basic>
+			<basic name="despad" attribute-type="double">
+			</basic>
+			<basic name="email" attribute-type="String">
+			</basic>
+			<basic name="fan" attribute-type="String">
+			</basic>
+			<basic name="fax" attribute-type="String">
+			</basic>
+			<basic name="fon" attribute-type="String">
+			</basic>
+			<basic name="fre" attribute-type="double">
+			</basic>
+			<basic name="ins" attribute-type="String">
+			</basic>
+			<basic name="ipi" attribute-type="double">
+			</basic>
+			<basic name="pes" attribute-type="Integer">
+			</basic>
+			<basic name="porcom" attribute-type="double">
+			</basic>
+			<basic name="raz" attribute-type="String">
+			</basic>
+			<basic name="refban" attribute-type="String">
+			</basic>
+			<basic name="rua" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Forpag" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="forpag" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Guia" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="bai" attribute-type="String">
+			</basic>
+			<basic name="cel" attribute-type="String">
+			</basic>
+			<basic name="cep" attribute-type="String">
+			</basic>
+			<basic name="cgc" attribute-type="String">
+			</basic>
+			<basic name="codcengui" attribute-type="Integer">
+			</basic>
+			<basic name="codcid" attribute-type="Integer">
+			</basic>
+			<basic name="con" attribute-type="String">
+			</basic>
+			<basic name="email" attribute-type="String">
+			</basic>
+			<basic name="fax" attribute-type="String">
+			</basic>
+			<basic name="fon" attribute-type="String">
+			</basic>
+			<basic name="gui" attribute-type="String">
+			</basic>
+			<basic name="numgui" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="rua" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Guiate" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="coddig" attribute-type="Integer">
+			</basic>
+			<basic name="codesp" attribute-type="Integer">
+			</basic>
+			<basic name="codlabexa" attribute-type="Integer">
+			</basic>
+			<basic name="codmed" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="hor" attribute-type="java.sql.Time">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Hiscob" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="codcob" attribute-type="Integer">
+			</basic>
+			<basic name="codusu" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="his" attribute-type="String">
+			</basic>
+			<basic name="hor" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Hisvalcusmer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="datalt" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="valcus" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Impecf" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ali" attribute-type="double">
+			</basic>
+			<basic name="codaliecf" attribute-type="String">
+			</basic>
+			<basic name="codimp" attribute-type="Integer">
+			</basic>
+			<basic name="numecf" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Impnf" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ImpnfPK"></embedded-id>
+			<basic name="ali" attribute-type="double">
+			</basic>
+			<basic name="bascal" attribute-type="double">
+			</basic>
+			<basic name="codsittri" attribute-type="Integer">
+			</basic>
+			<basic name="porbascal" attribute-type="double">
+			</basic>
+			<basic name="pordif" attribute-type="double">
+			</basic>
+			<basic name="valimp" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Impordcom" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ImpordcomPK"></embedded-id>
+			<basic name="ali" attribute-type="double">
+			</basic>
+			<basic name="bascal" attribute-type="double">
+			</basic>
+			<basic name="codsittri" attribute-type="Integer">
+			</basic>
+			<basic name="porbascal" attribute-type="double">
+			</basic>
+			<basic name="valimp" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Imposto" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="exiped" attribute-type="Integer">
+			</basic>
+			<basic name="imp" attribute-type="String">
+			</basic>
+			<basic name="ope" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Imppeden" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ImppedenPK"></embedded-id>
+			<basic name="ali" attribute-type="double">
+			</basic>
+			<basic name="bascal" attribute-type="double">
+			</basic>
+			<basic name="codsittri" attribute-type="Integer">
+			</basic>
+			<basic name="porbascal" attribute-type="double">
+			</basic>
+			<basic name="valimp" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Imppedsa" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ImppedsaPK"></embedded-id>
+			<basic name="ali" attribute-type="double">
+			</basic>
+			<basic name="bascal" attribute-type="double">
+			</basic>
+			<basic name="codsittri" attribute-type="Integer">
+			</basic>
+			<basic name="porbascal" attribute-type="double">
+			</basic>
+			<basic name="valimp" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Impsuf" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="alides" attribute-type="double">
+			</basic>
+			<basic name="codimp" attribute-type="Integer">
+			</basic>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+			<basic name="desimp" attribute-type="String">
+			</basic>
+			<basic name="valdes" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Iteacemer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codacemer" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="pad" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itebal" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codbal" attribute-type="Integer">
+			</basic>
+			<basic name="codbar" attribute-type="String">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="hor" attribute-type="java.sql.Time">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="setbal" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itecot" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcot" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="desite" attribute-type="byte[]">
+			</basic>
+			<basic name="envcot" attribute-type="Integer">
+			</basic>
+			<basic name="envreqcom" attribute-type="Integer">
+			</basic>
+			<basic name="exdtet" attribute-type="Integer">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itecotger" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcotger" attribute-type="Integer">
+			</basic>
+			<basic name="coditecot" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itecup" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="aliicm" attribute-type="double">
+			</basic>
+			<basic name="codcup" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="String">
+			</basic>
+			<basic name="mer" attribute-type="String">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="uni" attribute-type="String">
+			</basic>
+			<basic name="valuni" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itedetmer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="coddetmer" attribute-type="Integer">
+			</basic>
+			<basic name="des" attribute-type="byte[]">
+			</basic>
+			<basic name="det" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itedev" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="coditeped" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codmov" attribute-type="Integer">
+			</basic>
+			<basic name="porcom" attribute-type="double">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="tipmov" attribute-type="String">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itedevco" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="coddevcom" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itedife" access="VIRTUAL">
+		<table name="itedifes"/>
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="coddifest" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="estantbal" attribute-type="double">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Iteest" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.IteestPK"></embedded-id>
+			<basic name="estatu" attribute-type="double">
+			</basic>
+			<basic name="estest" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Iteleietipro" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="coddetope" attribute-type="Integer">
+			</basic>
+			<basic name="codleietipro" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codpedpro" attribute-type="Integer">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itenotfi" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="cf" attribute-type="Integer">
+			</basic>
+			<basic name="cfo" attribute-type="String">
+			</basic>
+			<basic name="cnotfis" attribute-type="Integer">
+			</basic>
+			<basic name="codanp" attribute-type="Integer">
+			</basic>
+			<basic name="codbar" attribute-type="String">
+			</basic>
+			<basic name="codclafis" attribute-type="String">
+			</basic>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="codespsubtri" attribute-type="String">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codnotfis" attribute-type="Integer">
+			</basic>
+			<basic name="codorimer" attribute-type="Integer">
+			</basic>
+			<basic name="codser" attribute-type="String">
+			</basic>
+			<basic name="codtriicm" attribute-type="Integer">
+			</basic>
+			<basic name="cupcan" attribute-type="Integer">
+			</basic>
+			<basic name="mer" attribute-type="String">
+			</basic>
+			<basic name="ncm" attribute-type="String">
+			</basic>
+			<basic name="numitepedcom" attribute-type="Integer">
+			</basic>
+			<basic name="numpedcom" attribute-type="String">
+			</basic>
+			<basic name="pesbru" attribute-type="double">
+			</basic>
+			<basic name="pesliq" attribute-type="double">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="uni" attribute-type="String">
+			</basic>
+			<basic name="valbascalstret" attribute-type="double">
+			</basic>
+			<basic name="valcus" attribute-type="double">
+			</basic>
+			<basic name="valdes" attribute-type="double">
+			</basic>
+			<basic name="valicmstret" attribute-type="double">
+			</basic>
+			<basic name="valliq" attribute-type="double">
+			</basic>
+			<basic name="valunimoeest" attribute-type="double">
+			</basic>
+			<basic name="valven" attribute-type="double">
+			</basic>
+			<basic name="vol" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Iteorc" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codorc" attribute-type="Integer">
+			</basic>
+			<basic name="numlot" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+			<basic name="valcus" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Iteordcom" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codordcom" attribute-type="Integer">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+			<basic name="valcus" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Iteordcor" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codordcor" attribute-type="Integer">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Iteped" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="coditeped" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codped" attribute-type="Integer">
+			</basic>
+			<basic name="obs" attribute-type="String">
+			</basic>
+			<basic name="quaent" attribute-type="double">
+			</basic>
+			<basic name="quaped" attribute-type="double">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+			<basic name="valcus" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itepeden" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="coditereqmat" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codped" attribute-type="Integer">
+			</basic>
+			<basic name="des" attribute-type="String">
+			</basic>
+			<basic name="numlot" attribute-type="String">
+			</basic>
+			<basic name="oricon" attribute-type="Integer">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="quacom" attribute-type="double">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itepedsa" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="aliicm" attribute-type="double">
+			</basic>
+			<basic name="coditeped" attribute-type="Integer">
+			</basic>
+			<basic name="coditepedsai" attribute-type="Integer">
+			</basic>
+			<basic name="codlan" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codped" attribute-type="Integer">
+			</basic>
+			<basic name="cupcan" attribute-type="Integer">
+			</basic>
+			<basic name="hor" attribute-type="java.sql.Time">
+			</basic>
+			<basic name="numlot" attribute-type="String">
+			</basic>
+			<basic name="oricon" attribute-type="Integer">
+			</basic>
+			<basic name="porcom" attribute-type="double">
+			</basic>
+			<basic name="quaent" attribute-type="double">
+			</basic>
+			<basic name="quaven" attribute-type="double">
+			</basic>
+			<basic name="valcus" attribute-type="double">
+			</basic>
+			<basic name="valdes" attribute-type="double">
+			</basic>
+			<basic name="valven" attribute-type="double">
+			</basic>
+			<basic name="valvenpro" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itereqma" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codplacon" attribute-type="Integer">
+			</basic>
+			<basic name="codreqmat" attribute-type="Integer">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itetabpr" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ItetabprPK"></embedded-id>
+			<basic name="datpro" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="porcom" attribute-type="double">
+			</basic>
+			<basic name="valpro" attribute-type="double">
+			</basic>
+			<basic name="valven" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itetra" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="coditepedpro" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codtra" attribute-type="Integer">
+			</basic>
+			<basic name="numlot" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="tipmer" attribute-type="Integer">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itetrode" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="coditepedsai" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codtrodev" attribute-type="Integer">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+			<basic name="valcus" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Itevenco" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codvencon" attribute-type="Integer">
+			</basic>
+			<basic name="hor" attribute-type="java.sql.Time">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Labexa" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="bai" attribute-type="String">
+			</basic>
+			<basic name="fon" attribute-type="String">
+			</basic>
+			<basic name="labexa" attribute-type="String">
+			</basic>
+			<basic name="rua" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Lacunicarunitradocfismdf" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codunicarunitradocfismdf" attribute-type="Integer">
+			</basic>
+			<basic name="lacunicarunitradocfismdf" attribute-type="String">
+			</basic>
+			<basic name="numlac" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Lacunitradocfismdf" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codunitradocfismdf" attribute-type="Integer">
+			</basic>
+			<basic name="lacunitradocfismdf" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Lancai" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcai" attribute-type="Integer">
+			</basic>
+			<basic name="codcon" attribute-type="Integer">
+			</basic>
+			<basic name="codtipcai" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Lancc" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codabrcc" attribute-type="Integer">
+			</basic>
+			<basic name="codcc" attribute-type="Integer">
+			</basic>
+			<basic name="codplacon" attribute-type="Integer">
+			</basic>
+			<basic name="codtipcc" attribute-type="Integer">
+			</basic>
+			<basic name="datlan" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="doc" attribute-type="String">
+			</basic>
+			<basic name="tem" attribute-type="Integer">
+			</basic>
+			<basic name="vlr" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Leietipro" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codpedpro" attribute-type="Integer">
+			</basic>
+			<basic name="codusu" attribute-type="Integer">
+			</basic>
+			<basic name="codven" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="obs" attribute-type="String">
+			</basic>
+			<basic name="quatot" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Loccarmdf" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcid" attribute-type="Integer">
+			</basic>
+			<basic name="codmandocfis" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Locmaq" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcencus" attribute-type="Integer">
+			</basic>
+			<basic name="codcencusori" attribute-type="Integer">
+			</basic>
+			<basic name="codmaq" attribute-type="Integer">
+			</basic>
+			<basic name="datent" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datpresai" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datsai" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="qua" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Log" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="camalt" attribute-type="String">
+			</basic>
+			<basic name="codmov" attribute-type="Integer">
+			</basic>
+			<basic name="com" attribute-type="String">
+			</basic>
+			<basic name="conant" attribute-type="String">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="hor" attribute-type="java.sql.Time">
+			</basic>
+			<basic name="mot" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="ope" attribute-type="String">
+			</basic>
+			<basic name="tipmov" attribute-type="String">
+			</basic>
+			<basic name="usu" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Mandocfi" access="VIRTUAL">
+		<table name="mandocfis"/>
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="capmetcub" attribute-type="double">
+			</basic>
+			<basic name="capqui" attribute-type="double">
+			</basic>
+			<basic name="cgcpro" attribute-type="String">
+			</basic>
+			<basic name="codagepor" attribute-type="String">
+			</basic>
+			<basic name="codideopetra" attribute-type="String">
+			</basic>
+			<basic name="codmodmdf" attribute-type="Integer">
+			</basic>
+			<basic name="codpai" attribute-type="Integer">
+			</basic>
+			<basic name="codtipcar" attribute-type="Integer">
+			</basic>
+			<basic name="codtippro" attribute-type="Integer">
+			</basic>
+			<basic name="codtiprod" attribute-type="Integer">
+			</basic>
+			<basic name="codunifeddes" attribute-type="String">
+			</basic>
+			<basic name="codunifedpro" attribute-type="String">
+			</basic>
+			<basic name="codunifedvei" attribute-type="String">
+			</basic>
+			<basic name="codvei" attribute-type="Integer">
+			</basic>
+			<basic name="datemi" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datsai" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="horemi" attribute-type="String">
+			</basic>
+			<basic name="horsai" attribute-type="String">
+			</basic>
+			<basic name="imp" attribute-type="Integer">
+			</basic>
+			<basic name="insestpro" attribute-type="String">
+			</basic>
+			<basic name="mod" attribute-type="String">
+			</basic>
+			<basic name="nompro" attribute-type="String">
+			</basic>
+			<basic name="num" attribute-type="Integer">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="pai" attribute-type="String">
+			</basic>
+			<basic name="pesbru" attribute-type="double">
+			</basic>
+			<basic name="plavei" attribute-type="String">
+			</basic>
+			<basic name="regnactrarodcar" attribute-type="String">
+			</basic>
+			<basic name="regnactrarodcarpro" attribute-type="String">
+			</basic>
+			<basic name="ren" attribute-type="String">
+			</basic>
+			<basic name="ser" attribute-type="String">
+			</basic>
+			<basic name="sitmdf" attribute-type="Integer">
+			</basic>
+			<basic name="tar" attribute-type="double">
+			</basic>
+			<basic name="unicar" attribute-type="String">
+			</basic>
+			<basic name="valtot" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Manmaq" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codfor" attribute-type="Integer">
+			</basic>
+			<basic name="codmanmaq" attribute-type="Integer">
+			</basic>
+			<basic name="codmaq" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datvengar" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="des" attribute-type="byte[]">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="valuni" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Maoobr" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="coditepedsai" attribute-type="Integer">
+			</basic>
+			<basic name="codmaoobr" attribute-type="Integer">
+			</basic>
+			<basic name="codpag" attribute-type="Integer">
+			</basic>
+			<basic name="com" attribute-type="double">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="forcom" attribute-type="Integer">
+			</basic>
+			<basic name="horfin" attribute-type="java.sql.Time">
+			</basic>
+			<basic name="horini" attribute-type="java.sql.Time">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Maqprome" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmermas" attribute-type="Integer">
+			</basic>
+			<basic name="codmersla" attribute-type="Integer">
+			</basic>
+			<basic name="codopepromer" attribute-type="Integer">
+			</basic>
+			<basic name="qua" attribute-type="java.sql.Time">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Maquina" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="codfor" attribute-type="Integer">
+			</basic>
+			<basic name="codtipmaq" attribute-type="Integer">
+			</basic>
+			<basic name="datcom" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datvalatu" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datvengar" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="inddep" attribute-type="double">
+			</basic>
+			<basic name="maq" attribute-type="String">
+			</basic>
+			<basic name="qua" attribute-type="Integer">
+			</basic>
+			<basic name="valatu" attribute-type="double">
+			</basic>
+			<basic name="valcom" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Marca" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="mar" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Medida" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="med" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Medtem" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="coddetope" attribute-type="Integer">
+			</basic>
+			<basic name="tem" attribute-type="java.sql.Time">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Merace" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codacemer" attribute-type="Integer">
+			</basic>
+			<basic name="codacepad" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Mercador" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="aliicm" attribute-type="double">
+			</basic>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="codanp" attribute-type="Integer">
+			</basic>
+			<basic name="codbar" attribute-type="String">
+			</basic>
+			<basic name="codclafis" attribute-type="String">
+			</basic>
+			<basic name="coddetmer" attribute-type="Integer">
+			</basic>
+			<basic name="codean" attribute-type="String">
+			</basic>
+			<basic name="codespsubtri" attribute-type="String">
+			</basic>
+			<basic name="codfis" attribute-type="Integer">
+			</basic>
+			<basic name="codmar" attribute-type="Integer">
+			</basic>
+			<basic name="codorimer" attribute-type="Integer">
+			</basic>
+			<basic name="codpad" attribute-type="String">
+			</basic>
+			<basic name="codplacon" attribute-type="Integer">
+			</basic>
+			<basic name="codsecmer" attribute-type="Integer">
+			</basic>
+			<basic name="codser" attribute-type="String">
+			</basic>
+			<basic name="codsitopesimnac" attribute-type="Integer">
+			</basic>
+			<basic name="codsubsecmer" attribute-type="Integer">
+			</basic>
+			<basic name="codtam" attribute-type="String">
+			</basic>
+			<basic name="codtriicm" attribute-type="Integer">
+			</basic>
+			<basic name="dataltvalcus" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datultcot" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="desfor" attribute-type="String">
+			</basic>
+			<basic name="estmin" attribute-type="double">
+			</basic>
+			<basic name="fatconuni" attribute-type="double">
+			</basic>
+			<basic name="filtro" attribute-type="Integer">
+			</basic>
+			<basic name="gra" attribute-type="Integer">
+			</basic>
+			<basic name="indkan" attribute-type="double">
+			</basic>
+			<basic name="locdep" attribute-type="String">
+			</basic>
+			<basic name="marluc" attribute-type="double">
+			</basic>
+			<basic name="mer" attribute-type="String">
+			</basic>
+			<basic name="naoimpeti" attribute-type="Integer">
+			</basic>
+			<basic name="naoimptab" attribute-type="Integer">
+			</basic>
+			<basic name="ncm" attribute-type="String">
+			</basic>
+			<basic name="pesbru" attribute-type="double">
+			</basic>
+			<basic name="pesliq" attribute-type="double">
+			</basic>
+			<basic name="porcom" attribute-type="double">
+			</basic>
+			<basic name="pordesmax" attribute-type="double">
+			</basic>
+			<basic name="poripi" attribute-type="double">
+			</basic>
+			<basic name="proexp" attribute-type="Integer">
+			</basic>
+			<basic name="quaref" attribute-type="double">
+			</basic>
+			<basic name="uni" attribute-type="String">
+			</basic>
+			<basic name="unicom" attribute-type="String">
+			</basic>
+			<basic name="utides" attribute-type="Integer">
+			</basic>
+			<basic name="valbascalstret" attribute-type="double">
+			</basic>
+			<basic name="valcus" attribute-type="double">
+			</basic>
+			<basic name="valcuscal" attribute-type="double">
+			</basic>
+			<basic name="valicmstret" attribute-type="double">
+			</basic>
+			<basic name="valven" attribute-type="double">
+			</basic>
+			<basic name="vol" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Mercodbar" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codbar" attribute-type="String">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Merfor" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.MerforPK"></embedded-id>
+			<basic name="codsittriicm" attribute-type="Integer">
+			</basic>
+			<basic name="codsittriipi" attribute-type="Integer">
+			</basic>
+			<basic name="codsittripiscof" attribute-type="Integer">
+			</basic>
+			<basic name="fre" attribute-type="double">
+			</basic>
+			<basic name="ipi" attribute-type="double">
+			</basic>
+			<basic name="mar" attribute-type="String">
+			</basic>
+			<basic name="temche" attribute-type="double">
+			</basic>
+			<basic name="valcom" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Mermed" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmed" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codtam" attribute-type="String">
+			</basic>
+			<basic name="med" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Modmdf" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="modmdf" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Motordser" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="motordser" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Movcrecli" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="codmov" attribute-type="Integer">
+			</basic>
+			<basic name="codsalcrecli" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="tipmov" attribute-type="Integer">
+			</basic>
+			<basic name="valcre" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Movevefin" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codevefin" attribute-type="Integer">
+			</basic>
+			<basic name="codmov" attribute-type="Integer">
+			</basic>
+			<basic name="datlan" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="moteve" attribute-type="byte[]">
+			</basic>
+			<basic name="tipmov" attribute-type="Integer">
+			</basic>
+			<basic name="valeve" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Movplaco" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcencus" attribute-type="Integer">
+			</basic>
+			<basic name="codetapro" attribute-type="Integer">
+			</basic>
+			<basic name="codmov" attribute-type="Integer">
+			</basic>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+			<basic name="codplacon" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="tipmov" attribute-type="Integer">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Mundesmdf" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcid" attribute-type="Integer">
+			</basic>
+			<basic name="codmandocfis" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Ncmnb" access="VIRTUAL">
+		<table name="ncmnbs"/>
+		<attributes>
+			<id name="cod" attribute-type="String">
+			</id>
+			<basic name="aliimp" attribute-type="double">
+			</basic>
+			<basic name="alinac" attribute-type="double">
+			</basic>
+			<basic name="des" attribute-type="String">
+			</basic>
+			<basic name="ex" attribute-type="String">
+			</basic>
+			<basic name="tab" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Notfi" access="VIRTUAL">
+		<table name="notfis"/>
+		<attributes>
+			<id name="c" attribute-type="Integer">
+			</id>
+			<basic name="bai" attribute-type="String">
+			</basic>
+			<basic name="can" attribute-type="Integer">
+			</basic>
+			<basic name="cep" attribute-type="String">
+			</basic>
+			<basic name="cfop" attribute-type="String">
+			</basic>
+			<basic name="cgc" attribute-type="String">
+			</basic>
+			<basic name="cgcemi" attribute-type="String">
+			</basic>
+			<basic name="cgctra" attribute-type="String">
+			</basic>
+			<basic name="cid" attribute-type="String">
+			</basic>
+			<basic name="ciddestra" attribute-type="String">
+			</basic>
+			<basic name="cidoritra" attribute-type="String">
+			</basic>
+			<basic name="cidtra" attribute-type="String">
+			</basic>
+			<basic name="clifor" attribute-type="String">
+			</basic>
+			<basic name="cod" attribute-type="Integer">
+			</basic>
+			<basic name="codcatcfo" attribute-type="Integer">
+			</basic>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="codibgdestra" attribute-type="Integer">
+			</basic>
+			<basic name="codibgoritra" attribute-type="Integer">
+			</basic>
+			<basic name="codpai" attribute-type="Integer">
+			</basic>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+			<basic name="codrecimp" attribute-type="Integer">
+			</basic>
+			<basic name="codtipclifat" attribute-type="Integer">
+			</basic>
+			<basic name="com" attribute-type="Integer">
+			</basic>
+			<basic name="cotdol" attribute-type="double">
+			</basic>
+			<basic name="datemi" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datsai" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="endtra" attribute-type="String">
+			</basic>
+			<basic name="ent" attribute-type="Integer">
+			</basic>
+			<basic name="esp" attribute-type="String">
+			</basic>
+			<basic name="fin" attribute-type="Integer">
+			</basic>
+			<basic name="fon" attribute-type="String">
+			</basic>
+			<basic name="horsai" attribute-type="String">
+			</basic>
+			<basic name="imp" attribute-type="Integer">
+			</basic>
+			<basic name="insest" attribute-type="String">
+			</basic>
+			<basic name="insesttra" attribute-type="String">
+			</basic>
+			<basic name="locemb" attribute-type="String">
+			</basic>
+			<basic name="mar" attribute-type="String">
+			</basic>
+			<basic name="mod" attribute-type="String">
+			</basic>
+			<basic name="natope" attribute-type="String">
+			</basic>
+			<basic name="num" attribute-type="String">
+			</basic>
+			<basic name="numnfs" attribute-type="Integer">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="ordent" attribute-type="String">
+			</basic>
+			<basic name="pai" attribute-type="String">
+			</basic>
+			<basic name="pesbru" attribute-type="double">
+			</basic>
+			<basic name="pesliq" attribute-type="double">
+			</basic>
+			<basic name="pla" attribute-type="String">
+			</basic>
+			<basic name="proter" attribute-type="String">
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="razsoc" attribute-type="String">
+			</basic>
+			<basic name="rom" attribute-type="String">
+			</basic>
+			<basic name="rua" attribute-type="String">
+			</basic>
+			<basic name="ser" attribute-type="String">
+			</basic>
+			<basic name="sitfre" attribute-type="Integer">
+			</basic>
+			<basic name="sitnfe" attribute-type="Integer">
+			</basic>
+			<basic name="tra" attribute-type="String">
+			</basic>
+			<basic name="trared" attribute-type="String">
+			</basic>
+			<basic name="uf" attribute-type="String">
+			</basic>
+			<basic name="ufdestra" attribute-type="String">
+			</basic>
+			<basic name="ufemb" attribute-type="String">
+			</basic>
+			<basic name="uforitra" attribute-type="String">
+			</basic>
+			<basic name="ufpla" attribute-type="String">
+			</basic>
+			<basic name="uftra" attribute-type="String">
+			</basic>
+			<basic name="valbru" attribute-type="double">
+			</basic>
+			<basic name="valcom" attribute-type="double">
+			</basic>
+			<basic name="valdes" attribute-type="double">
+			</basic>
+			<basic name="valfre" attribute-type="double">
+			</basic>
+			<basic name="valliq" attribute-type="double">
+			</basic>
+			<basic name="valout" attribute-type="double">
+			</basic>
+			<basic name="valseg" attribute-type="double">
+			</basic>
+			<basic name="vol" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Notfismov" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="cnotfis" attribute-type="Integer">
+			</basic>
+			<basic name="codmov" attribute-type="Integer">
+			</basic>
+			<basic name="codtipmov" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Notfisref" access="VIRTUAL">
+		<attributes>
+			<basic name="cgc" attribute-type="String">
+			</basic>
+			<basic name="chaace" attribute-type="String">
+			</basic>
+			<basic name="cnotfis" attribute-type="Integer">
+			</basic>
+			<basic name="codnotfis" attribute-type="Integer">
+			</basic>
+			<basic name="coduf" attribute-type="String">
+			</basic>
+			<basic name="datemi" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="mod" attribute-type="String">
+			</basic>
+			<basic name="ser" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Opecrimer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Boolean">
+			</basic>
+			<basic name="opecrimer" attribute-type="String">
+			</basic>
+			<basic name="tip" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Opepro" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="codcencus" attribute-type="Integer">
+			</basic>
+			<basic name="opepro" attribute-type="String">
+			</basic>
+			<basic name="ord" attribute-type="Integer">
+			</basic>
+			<basic name="pertol" attribute-type="double">
+			</basic>
+			<basic name="tem" attribute-type="double">
+			</basic>
+			<basic name="tip" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Opeprome" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcencus" attribute-type="Integer">
+			</basic>
+			<basic name="codmerpro" attribute-type="Integer">
+			</basic>
+			<basic name="codopepro" attribute-type="Integer">
+			</basic>
+			<basic name="tem" attribute-type="double">
+			</basic>
+			<basic name="valuni" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Orc" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="codven" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="pordes" attribute-type="double">
+			</basic>
+			<basic name="temped" attribute-type="Integer">
+			</basic>
+			<basic name="temven" attribute-type="Integer">
+			</basic>
+			<basic name="valdes" attribute-type="double">
+			</basic>
+			<basic name="valpro" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Ordcom" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codcencus" attribute-type="Integer">
+			</basic>
+			<basic name="codfor" attribute-type="Integer">
+			</basic>
+			<basic name="codusu" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datprefat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="pordes" attribute-type="double">
+			</basic>
+			<basic name="temcom" attribute-type="Integer">
+			</basic>
+			<basic name="valbru" attribute-type="double">
+			</basic>
+			<basic name="valdes" attribute-type="double">
+			</basic>
+			<basic name="valfre" attribute-type="double">
+			</basic>
+			<basic name="valimp" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Ordcor" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datpreent" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Ordcorpedsai" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codordcor" attribute-type="Integer">
+			</basic>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Ordser" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="coddig" attribute-type="Integer">
+			</basic>
+			<basic name="codmotordser" attribute-type="Integer">
+			</basic>
+			<basic name="codtec" attribute-type="Integer">
+			</basic>
+			<basic name="codven" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datage" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datbai" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="dia" attribute-type="byte[]">
+			</basic>
+			<basic name="hor" attribute-type="java.sql.Time">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="pen" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Orimer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="orimer" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Padmer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="String">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="padmer" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Padpar" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="padpar" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Pagar" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codfor" attribute-type="Integer">
+			</basic>
+			<basic name="codmov" attribute-type="Integer">
+			</basic>
+			<basic name="codped" attribute-type="Integer">
+			</basic>
+			<basic name="datemi" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datlan" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="doc" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="String">
+			</basic>
+			<basic name="pag" attribute-type="Integer">
+			</basic>
+			<basic name="tipcodmov" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Pai" access="VIRTUAL">
+		<table name="pais"/>
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="pai" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Parnotfi" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="cnotfis" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="num" attribute-type="String">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Parpag" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codforpag" attribute-type="Integer">
+			</basic>
+			<basic name="codlancc" attribute-type="Integer">
+			</basic>
+			<basic name="codpag" attribute-type="Integer">
+			</basic>
+			<basic name="codparori" attribute-type="Integer">
+			</basic>
+			<basic name="codparpagadi" attribute-type="Integer">
+			</basic>
+			<basic name="codsubtippag" attribute-type="Integer">
+			</basic>
+			<basic name="codtippag" attribute-type="Integer">
+			</basic>
+			<basic name="datlanpag" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datpag" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datven" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="numpar" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="pag" attribute-type="Integer">
+			</basic>
+			<basic name="vlrdif" attribute-type="double">
+			</basic>
+			<basic name="vlrpag" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Parpagcc" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.ParpagccPK"></embedded-id>
+		</attributes>
+	</entity>
+	<entity class="model.Parped" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codped" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="tip" attribute-type="String">
+			</basic>
+			<basic name="val" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Parrec" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcarcobcc" attribute-type="Integer">
+			</basic>
+			<basic name="codcob" attribute-type="Integer">
+			</basic>
+			<basic name="codcobhis" attribute-type="Integer">
+			</basic>
+			<basic name="codcom" attribute-type="Integer">
+			</basic>
+			<basic name="codforpag" attribute-type="Integer">
+			</basic>
+			<basic name="codlancc" attribute-type="Integer">
+			</basic>
+			<basic name="codparori" attribute-type="Integer">
+			</basic>
+			<basic name="codparrecadi" attribute-type="Integer">
+			</basic>
+			<basic name="codrec" attribute-type="Integer">
+			</basic>
+			<basic name="codreprec" attribute-type="Integer">
+			</basic>
+			<basic name="codsubtiprec" attribute-type="Integer">
+			</basic>
+			<basic name="codtiprec" attribute-type="Integer">
+			</basic>
+			<basic name="datemiblo" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datpag" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datpro" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datven" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="gerrem" attribute-type="Integer">
+			</basic>
+			<basic name="numblo" attribute-type="String">
+			</basic>
+			<basic name="numpar" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="pag" attribute-type="Integer">
+			</basic>
+			<basic name="tippag" attribute-type="Integer">
+			</basic>
+			<basic name="valblopro" attribute-type="double">
+			</basic>
+			<basic name="valdifparpar" attribute-type="double">
+			</basic>
+			<basic name="vlrdif" attribute-type="double">
+			</basic>
+			<basic name="vlrpag" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Parrecrep" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcarcobcc" attribute-type="Integer">
+			</basic>
+			<basic name="codcob" attribute-type="Integer">
+			</basic>
+			<basic name="codcobhis" attribute-type="Integer">
+			</basic>
+			<basic name="codcom" attribute-type="Integer">
+			</basic>
+			<basic name="codforpag" attribute-type="Integer">
+			</basic>
+			<basic name="codlancc" attribute-type="Integer">
+			</basic>
+			<basic name="codparori" attribute-type="Integer">
+			</basic>
+			<basic name="codparrec" attribute-type="Integer">
+			</basic>
+			<basic name="codparrecadi" attribute-type="Integer">
+			</basic>
+			<basic name="codrec" attribute-type="Integer">
+			</basic>
+			<basic name="codreprec" attribute-type="Integer">
+			</basic>
+			<basic name="codsubtiprec" attribute-type="Integer">
+			</basic>
+			<basic name="codtiprec" attribute-type="Integer">
+			</basic>
+			<basic name="datemiblo" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datpag" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datpro" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datven" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="gerrem" attribute-type="Integer">
+			</basic>
+			<basic name="numblo" attribute-type="String">
+			</basic>
+			<basic name="numpar" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="pag" attribute-type="Integer">
+			</basic>
+			<basic name="valblopro" attribute-type="double">
+			</basic>
+			<basic name="valdifparpar" attribute-type="double">
+			</basic>
+			<basic name="vlrdif" attribute-type="double">
+			</basic>
+			<basic name="vlrpag" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Ped" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="codpedrec" attribute-type="Integer">
+			</basic>
+			<basic name="codven" attribute-type="Integer">
+			</basic>
+			<basic name="conrec" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datprefat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="porcom" attribute-type="double">
+			</basic>
+			<basic name="pordes" attribute-type="double">
+			</basic>
+			<basic name="pro" attribute-type="Integer">
+			</basic>
+			<basic name="temven" attribute-type="Integer">
+			</basic>
+			<basic name="valbru" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Pedent" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="aplcus" attribute-type="Integer">
+			</basic>
+			<basic name="bai" attribute-type="Integer">
+			</basic>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codcfo" attribute-type="String">
+			</basic>
+			<basic name="codfor" attribute-type="Integer">
+			</basic>
+			<basic name="codordcom" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="numnot" attribute-type="String">
+			</basic>
+			<basic name="numped" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="valbru" attribute-type="double">
+			</basic>
+			<basic name="valdes" attribute-type="double">
+			</basic>
+			<basic name="valfre" attribute-type="double">
+			</basic>
+			<basic name="valimp" attribute-type="double">
+			</basic>
+			<basic name="vencon" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Pedpro" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="datpedpro" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="obs" attribute-type="String">
+			</basic>
+			<basic name="sit" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Pedsai" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="bai" attribute-type="Integer">
+			</basic>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codcfo" attribute-type="String">
+			</basic>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="codcom" attribute-type="Integer">
+			</basic>
+			<basic name="codcon" attribute-type="Integer">
+			</basic>
+			<basic name="coddig" attribute-type="Integer">
+			</basic>
+			<basic name="codforpag" attribute-type="Integer">
+			</basic>
+			<basic name="codgui" attribute-type="Integer">
+			</basic>
+			<basic name="codped" attribute-type="Integer">
+			</basic>
+			<basic name="codpedsairec" attribute-type="Integer">
+			</basic>
+			<basic name="codtrodev" attribute-type="Integer">
+			</basic>
+			<basic name="codven" attribute-type="Integer">
+			</basic>
+			<basic name="comguipag" attribute-type="Integer">
+			</basic>
+			<basic name="conrec" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datpagcomgui" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datprefat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datrec" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="hor" attribute-type="java.sql.Time">
+			</basic>
+			<basic name="indcom" attribute-type="double">
+			</basic>
+			<basic name="lansai" attribute-type="Integer">
+			</basic>
+			<basic name="mesabe" attribute-type="Integer">
+			</basic>
+			<basic name="notfisimp" attribute-type="Integer">
+			</basic>
+			<basic name="numficgui" attribute-type="String">
+			</basic>
+			<basic name="nummes" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="String">
+			</basic>
+			<basic name="ordent" attribute-type="String">
+			</basic>
+			<basic name="porcom" attribute-type="double">
+			</basic>
+			<basic name="porcomgui" attribute-type="double">
+			</basic>
+			<basic name="pordesata" attribute-type="double">
+			</basic>
+			<basic name="pordesvis" attribute-type="double">
+			</basic>
+			<basic name="porjurpra" attribute-type="double">
+			</basic>
+			<basic name="rom" attribute-type="String">
+			</basic>
+			<basic name="valbru" attribute-type="double">
+			</basic>
+			<basic name="valcom" attribute-type="double">
+			</basic>
+			<basic name="valdes" attribute-type="double">
+			</basic>
+			<basic name="valdesadi" attribute-type="double">
+			</basic>
+			<basic name="valdestro" attribute-type="double">
+			</basic>
+			<basic name="valimp" attribute-type="double">
+			</basic>
+			<basic name="valjur" attribute-type="double">
+			</basic>
+			<basic name="valliq" attribute-type="double">
+			</basic>
+			<basic name="vencon" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Pedsairec" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+			<basic name="codrec" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Placon" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="blo" attribute-type="Integer">
+			</basic>
+			<basic name="codorddre" attribute-type="Integer">
+			</basic>
+			<basic name="codplacon" attribute-type="Integer">
+			</basic>
+			<basic name="codseq" attribute-type="String">
+			</basic>
+			<basic name="credeb" attribute-type="String">
+			</basic>
+			<basic name="placon" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Plaven" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Preporquaven" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codbar" attribute-type="String">
+			</basic>
+			<basic name="quaven" attribute-type="double">
+			</basic>
+			<basic name="valven" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Prerevcl" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="arr" attribute-type="Integer">
+			</basic>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="porrea" attribute-type="double">
+			</basic>
+			<basic name="tip" attribute-type="String">
+			</basic>
+			<basic name="valfin" attribute-type="double">
+			</basic>
+			<basic name="valini" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Recado" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codpes" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="sta" attribute-type="Integer">
+			</basic>
+			<basic name="tip" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Receber" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="codmov" attribute-type="Integer">
+			</basic>
+			<basic name="codped" attribute-type="Integer">
+			</basic>
+			<basic name="codpedsairec" attribute-type="Integer">
+			</basic>
+			<basic name="datemi" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datlan" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="doc" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="String">
+			</basic>
+			<basic name="pag" attribute-type="Integer">
+			</basic>
+			<basic name="tipcodmov" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Regiao" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="reg" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Reprec" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codrec" attribute-type="Integer">
+			</basic>
+			<basic name="codusu" attribute-type="Integer">
+			</basic>
+			<basic name="datrep" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Represen" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="cel" attribute-type="String">
+			</basic>
+			<basic name="cpf" attribute-type="String">
+			</basic>
+			<basic name="email" attribute-type="String">
+			</basic>
+			<basic name="rep" attribute-type="String">
+			</basic>
+			<basic name="rg" attribute-type="String">
+			</basic>
+			<basic name="tel" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Reqcom" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="qua" attribute-type="double">
+			</basic>
+			<basic name="sta" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Reqmat" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codcencus" attribute-type="Integer">
+			</basic>
+			<basic name="codpedpro" attribute-type="Integer">
+			</basic>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+			<basic name="codplacon" attribute-type="Integer">
+			</basic>
+			<basic name="codusu" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="entsai" attribute-type="String">
+			</basic>
+			<basic name="hor" attribute-type="java.sql.Time">
+			</basic>
+			<basic name="pen" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Rom" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="rom" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Saladipag" access="VIRTUAL">
+		<attributes>
+			<id name="codparpag" attribute-type="Integer">
+			</id>
+			<basic name="sal" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Saladirec" access="VIRTUAL">
+		<attributes>
+			<id name="codparrec" attribute-type="Integer">
+			</id>
+			<basic name="sal" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Salcrecli" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="sal" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Secmer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="secmer" attribute-type="String">
+			</basic>
+			<basic name="tip" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Sitopesimnac" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="sitopesimnac" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Subsecmer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="subsecmer" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Subtippa" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="codtippag" attribute-type="Integer">
+			</basic>
+			<basic name="subtippag" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Subtipre" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="codtiprec" attribute-type="Integer">
+			</basic>
+			<basic name="subtiprec" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tabpre" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="insnovmer" attribute-type="Integer">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="porluc" attribute-type="double">
+			</basic>
+			<basic name="tabpre" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tamanho" access="VIRTUAL">
+		<attributes>
+			<id name="tam" attribute-type="String">
+			</id>
+			<basic name="ord" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tipcai" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="debcre" attribute-type="String">
+			</basic>
+			<basic name="des" attribute-type="String">
+			</basic>
+			<basic name="tipcai" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tipcar" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="tipcar" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tipcc" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="codplacon" attribute-type="Integer">
+			</basic>
+			<basic name="debcre" attribute-type="String">
+			</basic>
+			<basic name="des" attribute-type="String">
+			</basic>
+			<basic name="tipcc" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tipcrepiscof" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="des" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tipfun" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="tipfun" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tipfunma" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmaqpromer" attribute-type="Integer">
+			</basic>
+			<basic name="codtipfun" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tippag" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="tippag" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tippro" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="tippro" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tiprec" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="tiprec" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tiprod" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="tiprod" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tipunicar" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="tipunicar" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tipunitra" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="tipunitra" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tpclifat" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="ipisombascal" attribute-type="Integer">
+			</basic>
+			<basic name="tipclifat" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Transfer" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codceldes" attribute-type="Integer">
+			</basic>
+			<basic name="codcelori" attribute-type="Integer">
+			</basic>
+			<basic name="codetades" attribute-type="Integer">
+			</basic>
+			<basic name="codpag" attribute-type="Integer">
+			</basic>
+			<basic name="codpedpro" attribute-type="Integer">
+			</basic>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="datpag" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="pag" attribute-type="Integer">
+			</basic>
+			<basic name="prater" attribute-type="Integer">
+			</basic>
+			<basic name="pripro" attribute-type="Integer">
+			</basic>
+			<basic name="sitdes" attribute-type="Integer">
+			</basic>
+			<basic name="sitori" attribute-type="Integer">
+			</basic>
+			<basic name="sta" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Traped" access="VIRTUAL">
+		<attributes>
+			<id name="codped" attribute-type="Integer">
+			</id>
+			<basic name="codtra" attribute-type="Integer">
+			</basic>
+			<basic name="codtrared" attribute-type="Integer">
+			</basic>
+			<basic name="sitfre" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Trapeden" access="VIRTUAL">
+		<attributes>
+			<id name="codpedent" attribute-type="Integer">
+			</id>
+			<basic name="codtra" attribute-type="Integer">
+			</basic>
+			<basic name="codtrafre" attribute-type="Integer">
+			</basic>
+			<basic name="codtrared" attribute-type="Integer">
+			</basic>
+			<basic name="sitfre" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Trapedsa" access="VIRTUAL">
+		<attributes>
+			<id name="codpedsai" attribute-type="Integer">
+			</id>
+			<basic name="codtra" attribute-type="Integer">
+			</basic>
+			<basic name="codtrared" attribute-type="Integer">
+			</basic>
+			<basic name="sitfre" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Triicm" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="triicm" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Triicmcf" access="VIRTUAL">
+		<attributes>
+			<embedded-id name="id" attribute-type="model.TriicmcfPK"></embedded-id>
+			<basic name="codtriicm" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Triipi" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="triipi" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Tripiscof" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="tripiscof" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Trodev" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+			<basic name="codven" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="valliq" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Troparrec" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codlancc" attribute-type="Integer">
+			</basic>
+			<basic name="codparrec" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Unicarunitradocfismdf" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codtipunicar" attribute-type="Integer">
+			</basic>
+			<basic name="codunitradocfismdf" attribute-type="Integer">
+			</basic>
+			<basic name="ide" attribute-type="String">
+			</basic>
+			<basic name="qualac" attribute-type="double">
+			</basic>
+			<basic name="quarat" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Unifedpermdf" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codmandocfis" attribute-type="Integer">
+			</basic>
+			<basic name="coduf" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Unimed" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="des" attribute-type="String">
+			</basic>
+			<basic name="unimed" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Unitradocfismdf" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="coddocfismdf" attribute-type="Integer">
+			</basic>
+			<basic name="codtipunitra" attribute-type="Integer">
+			</basic>
+			<basic name="ide" attribute-type="String">
+			</basic>
+			<basic name="qualac" attribute-type="double">
+			</basic>
+			<basic name="quarat" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Usuario" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="log" attribute-type="String">
+			</basic>
+			<basic name="sen" attribute-type="String">
+			</basic>
+			<basic name="usu" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Usuplacon" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codplacon" attribute-type="Integer">
+			</basic>
+			<basic name="codusu" attribute-type="Integer">
+			</basic>
+			<basic name="lib" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Usurec" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codusudes" attribute-type="Integer">
+			</basic>
+			<basic name="codusuori" attribute-type="Integer">
+			</basic>
+			<basic name="datrec" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="horrec" attribute-type="java.sql.Time">
+			</basic>
+			<basic name="lid" attribute-type="Integer">
+			</basic>
+			<basic name="rec" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Valpedmdf" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="cgcfor" attribute-type="String">
+			</basic>
+			<basic name="cgcres" attribute-type="String">
+			</basic>
+			<basic name="codmandocfis" attribute-type="Integer">
+			</basic>
+			<basic name="numcom" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Vei" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="capmetcub" attribute-type="double">
+			</basic>
+			<basic name="capqui" attribute-type="double">
+			</basic>
+			<basic name="cgcpro" attribute-type="String">
+			</basic>
+			<basic name="codtipcar" attribute-type="Integer">
+			</basic>
+			<basic name="codtippro" attribute-type="Integer">
+			</basic>
+			<basic name="codtiprod" attribute-type="Integer">
+			</basic>
+			<basic name="codunifed" attribute-type="String">
+			</basic>
+			<basic name="codunifedpro" attribute-type="String">
+			</basic>
+			<basic name="insestpro" attribute-type="String">
+			</basic>
+			<basic name="nompro" attribute-type="String">
+			</basic>
+			<basic name="pla" attribute-type="String">
+			</basic>
+			<basic name="regnactrarodcarpro" attribute-type="String">
+			</basic>
+			<basic name="ren" attribute-type="String">
+			</basic>
+			<basic name="tar" attribute-type="double">
+			</basic>
+			<basic name="vei" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Vencon" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="acecon" attribute-type="Integer">
+			</basic>
+			<basic name="clifor" attribute-type="String">
+			</basic>
+			<basic name="codcat" attribute-type="Integer">
+			</basic>
+			<basic name="codcli" attribute-type="Integer">
+			</basic>
+			<basic name="codped" attribute-type="Integer">
+			</basic>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+			<basic name="codven" attribute-type="Integer">
+			</basic>
+			<basic name="dat" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="entsai" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="pen" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Vendedor" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="ativo" attribute-type="Integer">
+			</basic>
+			<basic name="bai" attribute-type="String">
+			</basic>
+			<basic name="cel" attribute-type="String">
+			</basic>
+			<basic name="cep" attribute-type="String">
+			</basic>
+			<basic name="cgc" attribute-type="String">
+			</basic>
+			<basic name="codcid" attribute-type="Integer">
+			</basic>
+			<basic name="codfor" attribute-type="Integer">
+			</basic>
+			<basic name="codusu" attribute-type="Integer">
+			</basic>
+			<basic name="datiniext" attribute-type="java.util.Date">
+				<temporal>DATE</temporal>
+			</basic>
+			<basic name="email" attribute-type="String">
+			</basic>
+			<basic name="fax" attribute-type="String">
+			</basic>
+			<basic name="fon" attribute-type="String">
+			</basic>
+			<basic name="ins" attribute-type="String">
+			</basic>
+			<basic name="obs" attribute-type="byte[]">
+			</basic>
+			<basic name="porcom" attribute-type="double">
+			</basic>
+			<basic name="rua" attribute-type="String">
+			</basic>
+			<basic name="saliniext" attribute-type="double">
+			</basic>
+			<basic name="ven" attribute-type="String">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Venven" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codcom" attribute-type="Integer">
+			</basic>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+			<basic name="codven" attribute-type="Integer">
+			</basic>
+			<basic name="porcom" attribute-type="double">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Volnotfi" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codnotfis" attribute-type="Integer">
+			</basic>
+			<basic name="esp" attribute-type="String">
+			</basic>
+			<basic name="mar" attribute-type="String">
+			</basic>
+			<basic name="num" attribute-type="String">
+			</basic>
+			<basic name="pesbru" attribute-type="double">
+			</basic>
+			<basic name="pesliq" attribute-type="double">
+			</basic>
+			<basic name="qua" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Volpeden" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codpedent" attribute-type="Integer">
+			</basic>
+			<basic name="esp" attribute-type="String">
+			</basic>
+			<basic name="mar" attribute-type="String">
+			</basic>
+			<basic name="num" attribute-type="String">
+			</basic>
+			<basic name="pesbru" attribute-type="double">
+			</basic>
+			<basic name="pesliq" attribute-type="double">
+			</basic>
+			<basic name="qua" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<entity class="model.Volpedsa" access="VIRTUAL">
+		<attributes>
+			<id name="cod" attribute-type="Integer">
+			</id>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+			<basic name="esp" attribute-type="String">
+			</basic>
+			<basic name="mar" attribute-type="String">
+			</basic>
+			<basic name="num" attribute-type="String">
+			</basic>
+			<basic name="pesbru" attribute-type="double">
+			</basic>
+			<basic name="pesliq" attribute-type="double">
+			</basic>
+			<basic name="qua" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</entity>
+	<embeddable class="model.AcessoPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codusu" attribute-type="Integer">
+			</basic>
+			<basic name="codcad" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ChdevrecPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codparrec" attribute-type="Integer">
+			</basic>
+			<basic name="codchrec" attribute-type="Integer">
+			</basic>
+			<basic name="orides" attribute-type="String">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ChemiPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codcc" attribute-type="Integer">
+			</basic>
+			<basic name="ch" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ChrecdepPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codchrec" attribute-type="Integer">
+			</basic>
+			<basic name="codlancc" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ChreppagPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codchrec" attribute-type="Integer">
+			</basic>
+			<basic name="codparpag" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ChxpagPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codparpag" attribute-type="Integer">
+			</basic>
+			<basic name="codcc" attribute-type="Integer">
+			</basic>
+			<basic name="ch" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ChxrecPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codparrec" attribute-type="Integer">
+			</basic>
+			<basic name="codchrec" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ComparrecPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codparrec" attribute-type="Integer">
+			</basic>
+			<basic name="codven" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ComvenparrecPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codparrec" attribute-type="Integer">
+			</basic>
+			<basic name="codven" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ConpagdePK" access="VIRTUAL">
+		<attributes>
+			<basic name="codconpag" attribute-type="Integer">
+			</basic>
+			<basic name="dia" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ConpedsaPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codpedsai" attribute-type="Integer">
+			</basic>
+			<basic name="codmer1" attribute-type="Integer">
+			</basic>
+			<basic name="codmer2" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ExtratoPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codban" attribute-type="Integer">
+			</basic>
+			<basic name="codtipcc" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ImpnfPK" access="VIRTUAL">
+		<attributes>
+			<basic name="coditenotfis" attribute-type="Integer">
+			</basic>
+			<basic name="codimp" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ImpordcomPK" access="VIRTUAL">
+		<attributes>
+			<basic name="coditeordcom" attribute-type="Integer">
+			</basic>
+			<basic name="codimp" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ImppedenPK" access="VIRTUAL">
+		<attributes>
+			<basic name="coditepedent" attribute-type="Integer">
+			</basic>
+			<basic name="codimp" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ImppedsaPK" access="VIRTUAL">
+		<attributes>
+			<basic name="coditepedsai" attribute-type="Integer">
+			</basic>
+			<basic name="codimp" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.IteestPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codest" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ItetabprPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codtabpre" attribute-type="Integer">
+			</basic>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.MerforPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codmer" attribute-type="Integer">
+			</basic>
+			<basic name="codfor" attribute-type="Integer">
+			</basic>
+			<basic name="ref" attribute-type="String">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.ParpagccPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codparpag" attribute-type="Integer">
+			</basic>
+			<basic name="codcc" attribute-type="Integer">
+			</basic>
+		</attributes>
+	</embeddable>
+	<embeddable class="model.TriicmcfPK" access="VIRTUAL">
+		<attributes>
+			<basic name="codclafis" attribute-type="String">
+			</basic>
+			<basic name="codcfo" attribute-type="String">
+			</basic>
+		</attributes>
+	</embeddable>
+</entity-mappings>

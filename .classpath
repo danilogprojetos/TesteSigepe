@@ -7,6 +7,14 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="E:/Java/TesteAuto/hibernate-release-4.2.21.Final.zip"/>
 	<classpathentry kind="lib" path="E:/Java/TesteAuto/hibernate-release-5.2.8.Final.zip"/>
-	<classpathentry kind="lib" path="E:/Java/TesteAuto/eclipselink.zip"/>
+	<classpathentry kind="lib" path="E:/Java/TesteAuto/TesteAuto/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="E:/Java/TesteAuto/TesteAuto/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/Java/TesteAuto/TesteAuto/hibernate-commons-annotations-4.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Java/TesteAuto/TesteAuto/hibernate-core-4.2.19.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Java/TesteAuto/TesteAuto/hibernate-entitymanager-4.2.19.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Java/TesteAuto/TesteAuto/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Java/TesteAuto/TesteAuto/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="E:/Java/TesteAuto/TesteAuto/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="E:/Java/TesteAuto/TesteAuto/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
