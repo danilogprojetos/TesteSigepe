@@ -25,7 +25,7 @@ public class Main {
 		//cad.CadFor();
 		// c.CadCli();
 		// d.PedSai();
-		   a.CadVendedor();
+		  // a.CadVendedor();
 	}
 
 }

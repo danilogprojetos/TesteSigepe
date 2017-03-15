@@ -16,5 +16,7 @@
 	<classpathentry kind="lib" path="E:/Java/TesteAuto/TesteAuto/javassist-3.18.1-GA.jar"/>
 	<classpathentry kind="lib" path="E:/Java/TesteAuto/TesteAuto/jboss-logging-3.1.0.GA.jar"/>
 	<classpathentry kind="lib" path="E:/Java/TesteAuto/TesteAuto/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Java/TesteAuto/gs-intellij-idea-master.zip"/>
+	<classpathentry kind="lib" path="E:/Java/TesteAuto/gs-sts-master.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
