@@ -1,14 +1,271 @@
-<persistence-unit name="postgres">
-		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<properties>
-			<property name="hibernate.archive.autodetection" value="class" />
-			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
-			<property name="hibernate.connection.driver_class" value="org.postgresql.Driver" />
-			<property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/querydsl" />
-			<property name="hibernate.connection.username" value="postgres" />
-			<property name="hibernate.connection.password" value="1" />
-			<!-- <property name="hibernate.show_sql" value="true"/> -->
-			<property name="hibernate.flushMode" value="FLUSH_AUTO" />
-			<property name="hibernate.hbm2ddl.auto" value="update" />
-		</properties>
-	</persistence-unit>
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+ xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+ 
+ <persistence-unit name="testeSigepe" transaction-type="RESOURCE_LOCAL">
+ <provider>org.hibernate.ejb.HibernatePersistence</provider>
+ <class>com.banco.dao.Abrcc</class>
+ <class>com.banco.dao.Acecon</class>
+ <class>com.banco.dao.Acemaq</class>
+ <class>com.banco.dao.Acemer</class>
+ <class>com.banco.dao.Acesso</class>
+ <class>com.banco.dao.AcessoPK</class>
+ <class>com.banco.dao.Bal</class>
+ <class>com.banco.dao.Banco</class>
+ <class>com.banco.dao.Bloalt</class>
+ <class>com.banco.dao.Cadastro</class>
+ <class>com.banco.dao.Caixa</class>
+ <class>com.banco.dao.Carcobcc</class>
+ <class>com.banco.dao.Carcorele</class>
+ <class>com.banco.dao.Catcfo</class>
+ <class>com.banco.dao.Categori</class>
+ <class>com.banco.dao.Cc</class>
+ <class>com.banco.dao.Cencus</class>
+ <class>com.banco.dao.Cengui</class>
+ <class>com.banco.dao.Cfo</class>
+ <class>com.banco.dao.Chdevrec</class>
+ <class>com.banco.dao.ChdevrecPK</class>
+ <class>com.banco.dao.Chemi</class>
+ <class>com.banco.dao.ChemiPK</class>
+ <class>com.banco.dao.Chrec</class>
+ <class>com.banco.dao.Chrecdep</class>
+ <class>com.banco.dao.ChrecdepPK</class>
+ <class>com.banco.dao.Chreppag</class>
+ <class>com.banco.dao.ChreppagPK</class>
+ <class>com.banco.dao.Chxpag</class>
+ <class>com.banco.dao.ChxpagPK</class>
+ <class>com.banco.dao.Chxrec</class>
+ <class>com.banco.dao.ChxrecPK</class>
+ <class>com.banco.dao.Cidade</class>
+ <class>com.banco.dao.Clafi</class>
+ <class>com.banco.dao.Clafiscfo</class>
+ <class>com.banco.dao.Cliente</class>
+ <class>com.banco.dao.Cob</class>
+ <class>com.banco.dao.Comissao</class>
+ <class>com.banco.dao.Commer</class>
+ <class>com.banco.dao.Commerpad</class>
+ <class>com.banco.dao.Commerpr</class>
+ <class>com.banco.dao.Commertam</class>
+ <class>com.banco.dao.Comparrec</class>
+ <class>com.banco.dao.ComparrecPK</class>
+ <class>com.banco.dao.Comvenparrec</class>
+ <class>com.banco.dao.ComvenparrecPK</class>
+ <class>com.banco.dao.Config</class>
+ <class>com.banco.dao.Conimp</class>
+ <class>com.banco.dao.Conlog</class>
+ <class>com.banco.dao.Conmdf</class>
+ <class>com.banco.dao.Conpag</class>
+ <class>com.banco.dao.Conpagde</class>
+ <class>com.banco.dao.ConpagdePK</class>
+ <class>com.banco.dao.Conpedsa</class>
+ <class>com.banco.dao.ConpedsaPK</class>
+ <class>com.banco.dao.Convenio</class>
+ <class>com.banco.dao.Cot</class>
+ <class>com.banco.dao.Cotger</class>
+ <class>com.banco.dao.Crimer</class>
+ <class>com.banco.dao.Cupom</class>
+ <class>com.banco.dao.Cusmer</class>
+ <class>com.banco.dao.Dadcobpag</class>
+ <class>com.banco.dao.Dadcobrec</class>
+ <class>com.banco.dao.Dadprorur</class>
+ <class>com.banco.dao.Decimp</class>
+ <class>com.banco.dao.Decimpadi</class>
+ <class>com.banco.dao.De</class>
+ <class>com.banco.dao.Desimp</class>
+ <class>com.banco.dao.Desip</class>
+ <class>com.banco.dao.Desrec</class>
+ <class>com.banco.dao.Destabpr</class>
+ <class>com.banco.dao.Detcommer</class>
+ <class>com.banco.dao.Detcuspedsai</class>
+ <class>com.banco.dao.Detmer</class>
+ <class>com.banco.dao.Detope</class>
+ <class>com.banco.dao.Dev</class>
+ <class>com.banco.dao.Devaut</class>
+ <class>com.banco.dao.Devcom</class>
+ <class>com.banco.dao.Difest</class>
+ <class>com.banco.dao.Docfismdf</class>
+ <class>com.banco.dao.Esp</class>
+ <class>com.banco.dao.Est</class>
+ <class>com.banco.dao.Estado</class>
+ <class>com.banco.dao.Etapedpr</class>
+ <class>com.banco.dao.Evefin</class>
+ <class>com.banco.dao.Extrato</class>
+ <class>com.banco.dao.ExtratoPK</class>
+ <class>com.banco.dao.Forcotger</class>
+ <class>com.banco.dao.Forneced</class>
+ <class>com.banco.dao.Forpag</class>
+ <class>com.banco.dao.Guia</class>
+ <class>com.banco.dao.Guiate</class>
+ <class>com.banco.dao.Hiscob</class>
+ <class>com.banco.dao.Hisvalcusmer</class>
+ <class>com.banco.dao.Impecf</class>
+ <class>com.banco.dao.Impnf</class>
+ <class>com.banco.dao.ImpnfPK</class>
+ <class>com.banco.dao.Impordcom</class>
+ <class>com.banco.dao.ImpordcomPK</class>
+ <class>com.banco.dao.Imposto</class>
+ <class>com.banco.dao.Imppeden</class>
+ <class>com.banco.dao.ImppedenPK</class>
+ <class>com.banco.dao.Imppedsa</class>
+ <class>com.banco.dao.ImppedsaPK</class>
+ <class>com.banco.dao.Impsuf</class>
+ <class>com.banco.dao.Iteacemer</class>
+ <class>com.banco.dao.Itebal</class>
+ <class>com.banco.dao.Itecot</class>
+ <class>com.banco.dao.Itecotger</class>
+ <class>com.banco.dao.Itecup</class>
+ <class>com.banco.dao.Itedetmer</class>
+ <class>com.banco.dao.Itedev</class>
+ <class>com.banco.dao.Itedevco</class>
+ <class>com.banco.dao.Itedife</class>
+ <class>com.banco.dao.Iteest</class>
+ <class>com.banco.dao.IteestPK</class>
+ <class>com.banco.dao.Iteleietipro</class>
+ <class>com.banco.dao.Itenotfi</class>
+ <class>com.banco.dao.Iteorc</class>
+ <class>com.banco.dao.Iteordcom</class>
+ <class>com.banco.dao.Iteordcor</class>
+ <class>com.banco.dao.Iteped</class>
+ <class>com.banco.dao.Itepeden</class>
+ <class>com.banco.dao.Itepedsa</class>
+ <class>com.banco.dao.Itereqma</class>
+ <class>com.banco.dao.Itetabpr</class>
+ <class>com.banco.dao.ItetabprPK</class>
+ <class>com.banco.dao.Itetra</class>
+ <class>com.banco.dao.Itetrode</class>
+ <class>com.banco.dao.Itevenco</class>
+ <class>com.banco.dao.Labexa</class>
+ <class>com.banco.dao.Lacunicarunitradocfismdf</class>
+ <class>com.banco.dao.Lacunitradocfismdf</class>
+ <class>com.banco.dao.Lancai</class>
+ <class>com.banco.dao.Lancc</class>
+ <class>com.banco.dao.Leietipro</class>
+ <class>com.banco.dao.Loccarmdf</class>
+ <class>com.banco.dao.Locmaq</class>
+ <class>com.banco.dao.Log</class>
+ <class>com.banco.dao.Mandocfi</class>
+ <class>com.banco.dao.Manmaq</class>
+ <class>com.banco.dao.Maoobr</class>
+ <class>com.banco.dao.Maqprome</class>
+ <class>com.banco.dao.Maquina</class>
+ <class>com.banco.dao.Marca</class>
+ <class>com.banco.dao.Medida</class>
+ <class>com.banco.dao.Medtem</class>
+ <class>com.banco.dao.Merace</class>
+ <class>com.banco.dao.Mercador</class>
+ <class>com.banco.dao.Mercodbar</class>
+ <class>com.banco.dao.Merfor</class>
+ <class>com.banco.dao.MerforPK</class>
+ <class>com.banco.dao.Mermed</class>
+ <class>com.banco.dao.Modmdf</class>
+ <class>com.banco.dao.Motordser</class>
+ <class>com.banco.dao.Movcrecli</class>
+ <class>com.banco.dao.Movevefin</class>
+ <class>com.banco.dao.Movplaco</class>
+ <class>com.banco.dao.Mundesmdf</class>
+ <class>com.banco.dao.Ncmnb</class>
+ <class>com.banco.dao.Notfi</class>
+ <class>com.banco.dao.Notfismov</class>
+ <class>com.banco.dao.Opecrimer</class>
+ <class>com.banco.dao.Opepro</class>
+ <class>com.banco.dao.Opeprome</class>
+ <class>com.banco.dao.Orc</class>
+ <class>com.banco.dao.Ordcom</class>
+ <class>com.banco.dao.Ordcor</class>
+ <class>com.banco.dao.Ordcorpedsai</class>
+ <class>com.banco.dao.Ordser</class>
+ <class>com.banco.dao.Orimer</class>
+ <class>com.banco.dao.Padmer</class>
+ <class>com.banco.dao.Padpar</class>
+ <class>com.banco.dao.Pagar</class>
+ <class>com.banco.dao.Pai</class>
+ <class>com.banco.dao.Parnotfi</class>
+ <class>com.banco.dao.Parpag</class>
+ <class>com.banco.dao.Parpagcc</class>
+ <class>com.banco.dao.ParpagccPK</class>
+ <class>com.banco.dao.Parped</class>
+ <class>com.banco.dao.Parrec</class>
+ <class>com.banco.dao.Parrecrep</class>
+ <class>com.banco.dao.Ped</class>
+ <class>com.banco.dao.Pedent</class>
+ <class>com.banco.dao.Pedpro</class>
+ <class>com.banco.dao.Pedsai</class>
+ <class>com.banco.dao.Pedsairec</class>
+ <class>com.banco.dao.Placon</class>
+ <class>com.banco.dao.Plaven</class>
+ <class>com.banco.dao.Preporquaven</class>
+ <class>com.banco.dao.Prerevcl</class>
+ <class>com.banco.dao.Recado</class>
+ <class>com.banco.dao.Receber</class>
+ <class>com.banco.dao.Regiao</class>
+ <class>com.banco.dao.Reprec</class>
+ <class>com.banco.dao.Represen</class>
+ <class>com.banco.dao.Reqcom</class>
+ <class>com.banco.dao.Reqmat</class>
+ <class>com.banco.dao.Rom</class>
+ <class>com.banco.dao.Saladipag</class>
+ <class>com.banco.dao.Saladirec</class>
+ <class>com.banco.dao.Salcrecli</class>
+ <class>com.banco.dao.Secmer</class>
+ <class>com.banco.dao.Sitopesimnac</class>
+ <class>com.banco.dao.Subsecmer</class>
+ <class>com.banco.dao.Subtippa</class>
+ <class>com.banco.dao.Subtipre</class>
+ <class>com.banco.dao.Tabpre</class>
+ <class>com.banco.dao.Tamanho</class>
+ <class>com.banco.dao.Tipcai</class>
+ <class>com.banco.dao.Tipcar</class>
+ <class>com.banco.dao.Tipcc</class>
+ <class>com.banco.dao.Tipcrepiscof</class>
+ <class>com.banco.dao.Tipfun</class>
+ <class>com.banco.dao.Tipfunma</class>
+ <class>com.banco.dao.Tippag</class>
+ <class>com.banco.dao.Tippro</class>
+ <class>com.banco.dao.Tiprec</class>
+ <class>com.banco.dao.Tiprod</class>
+ <class>com.banco.dao.Tipunicar</class>
+ <class>com.banco.dao.Tipunitra</class>
+ <class>com.banco.dao.Tpclifat</class>
+ <class>com.banco.dao.Transfer</class>
+ <class>com.banco.dao.Traped</class>
+ <class>com.banco.dao.Trapeden</class>
+ <class>com.banco.dao.Trapedsa</class>
+ <class>com.banco.dao.Triicm</class>
+ <class>com.banco.dao.Triicmcf</class>
+ <class>com.banco.dao.TriicmcfPK</class>
+ <class>com.banco.dao.Triipi</class>
+ <class>com.banco.dao.Tripiscof</class>
+ <class>com.banco.dao.Trodev</class>
+ <class>com.banco.dao.Troparrec</class>
+ <class>com.banco.dao.Unicarunitradocfismdf</class>
+ <class>com.banco.dao.Unifedpermdf</class>
+ <class>com.banco.dao.Unimed</class>
+ <class>com.banco.dao.Unitradocfismdf</class>
+ <class>com.banco.dao.Usuario</class>
+ <class>com.banco.dao.Usuplacon</class>
+ <class>com.banco.dao.Usurec</class>
+ <class>com.banco.dao.Valpedmdf</class>
+ <class>com.banco.dao.Vei</class>
+ <class>com.banco.dao.Vencon</class>
+ <class>com.banco.dao.Vendedor</class>
+ <class>com.banco.dao.Venven</class>
+ <class>com.banco.dao.Volnotfi</class>
+ <class>com.banco.dao.Volpeden</class>
+ <class>com.banco.dao.Volpedsa</class>
+ 
+ <properties>
+ <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+ <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/teste_viverde" ></property>
+ <property name="javax.persistence.jdbc.user" value="postgres" />
+ <property name="javax.persistence.jdbc.password" value="1" />
+ <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
+ <property name="hibernate.connection.shutdown" value="true" />
+ <property name="hibernate.hbm2ddl.auto" value="update" />
+ <property name="hibernate.show_sql" value="false" />
+ <property name="hibernate.format_sql" value="false"/>
+ </properties>
+ 
+ </persistence-unit>
+</persistence>
+ 
