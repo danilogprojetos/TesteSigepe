@@ -4,19 +4,15 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
+import org.python.core.exceptions;
+
 import com.banco.dao.Cliente;
 
 public class MainTeste {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
-		Cliente c = new Cliente();
-		if (c.setNum(1517))
-		c.setBai("Vila morangeuria");
-		
-		
-		
-		
+			
 				
 		
 		//Gerenciador de Entidades EntityManager
@@ -24,7 +20,11 @@ public class MainTeste {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("testeSigepe");
 		EntityManager em = emf.createEntityManager();
 		em.getTransaction().begin();
-		em.persist(c);
+		
+		
+		Cliente a = em.find(Cliente.class, 10003);
+		em.remove(a);
+		//em.persist(c);
 		em.getTransaction().commit();
 		em.close();
 		emf.close();
